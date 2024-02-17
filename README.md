@@ -243,4 +243,58 @@ Success! Created sample-next-project at /Users/ユーザーディレクトリ/�
 http://localhost:3000/
 ```
 
+## Hello world を表示してみよう！
+
+sample-next-project ディレクトリをVS Code で表示する
+
+sample-next-project/src/app にある、page.tsx　ファイルを編集する
+
+32行目から39行目を削除し、「Hello world」とします。
+
+```
+        <Image
+          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+          src="/next.svg"
+          alt="Next.js Logo"
+          width={180}
+          height={37}
+          priority
+        />
+```
+
+以下に変更
+
+```
+<div className="relative クラス名は多いので記述上省略>
+Hello world
+</div>
+```
+
+/src/app
+├── favicon.ico
+├── globals.css
+├── layout.tsx
+└── page.tsx
+
+globals.css 全体のデザイン設定を行うファイル。
+
+layout.tsx　複数のページで共有されるUIコンポーネント。
+
+page.tsx ルートーページの固有なUIコンポーネント
+
+ * 【参考リンク】[https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts](https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts)
+
+(補足)TailwindCSSについて
+
+メリット
+  ・ CSSのクラス名を考えなくてよい
+  ・ CSSの管理が楽になる
+
+デメリット
+  ・ CSSのコーディングを忘れてしまう
+  ・　クラス名が長くなり、可読性が下がってしまう
+
+* 【参考リンク】　【公式ドキュメント】　[https://tailwindcss.com/docs/installation](https://tailwindcss.com/docs/installation)
+* 【参考リンク】　[https://reffect.co.jp/html/tailwindcss-for-beginners](https://reffect.co.jp/html/tailwindcss-for-beginners)
+
 
