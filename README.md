@@ -28,4 +28,10 @@ etc…
 【参考】
 [https://nextjs.org/docs#how-to-use-these-docs](https://nextjs.org/docs#how-to-use-these-docs)
 
+## 開発で使用する言語
+
+* HTML
+* CSS
+* JavaScript
+  * Typescript TypeScript は、JavaScript に基づいて構築された厳密に型指定されたプログラミング言語。ページ内の動作、処理を作る。
 
