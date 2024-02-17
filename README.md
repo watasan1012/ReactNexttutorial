@@ -60,14 +60,32 @@ etc…
  * Supabase
   * Supabaseとは、データベースでBassです。
 
+## 開発環境を確認する
+
+Node.js
+
+```sh
+% node -v
+```
+v18.18.0
+
+Latest LTS Version: 20.11.1
+
+```sh
+% brew upgrade
+```
+
+
 ## Next.jsに触れる
+
+
 
 1. プロジェクトの作成
 
 - ターミナルを起動し、以下のコマンドを実行する
 
 
-```
+```sh
 $ npx create-next-app@latest
 ```
 
