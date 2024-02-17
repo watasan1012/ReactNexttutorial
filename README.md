@@ -165,6 +165,82 @@ v20.11.1
 $ npx create-next-app@latest
 ```
 
+```
+create-next-app@14.1.0
+Ok to proceed? (y)
+```
 
-3. 
+y キー　エンターキーの順にクリック
+
+```
+? What is your project named? › my-app
+```
+
+作成するプロジェクトの名前を入力する
+
+sample-next-project
+
+```sh
+? Would you like to use TypeScript? › No / Yes
+```
+
+Yes
+
+```sh
+? Would you like to use ESLint? › No / Yes
+```
+
+Yes
+
+```
+? Would you like to use Tailwind CSS? › No / Yes
+```
+
+Yes
+
+```
+? Would you like to use `src/` directory? › No / Yes
+```
+
+Yes
+
+本業　css in js
+
+```
+? Would you like to use App Router? (recommended) › No / Yes
+```
+
+Yes
+
+```
+? Would you like to customize the default import alias (@/*)? › No / Yes
+```
+
+No
+
+プロジェクトの作成が起動する
+
+Success! Created sample-next-project at /Users/ユーザーディレクトリ/作業ディレクトリ/sample-next-project
+
+が表示されたら完成です。
+
+作業ディレクトリに移動します。
+
+```sh
+% cd sample-next-project
+```
+
+サーバーを起動する
+
+```sh
+ % npm run dev
+```
+
+ブラウザーからプロジェクトができたか確認する
+
+以下リンクを表示する
+```
+http://localhost:3000/
+```
+
 
