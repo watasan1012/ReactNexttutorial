@@ -81,6 +81,26 @@ Latest LTS Version: 20.11.1
 % brew doctor
 ```
 
+homebrewでインストールしたパッケージを確認する
+
+```sh
+% brew list
+```
+nodenvでnode.jsをインストールしたことがわかります。
+
+インストール可能なnodeの一覧を表示する
+
+```sh
+% nodenv install --list
+```
+
+Node.jsをインストールする
+
+```sh
+% nodenv install 20.11.1
+```
+
+
 ## Next.jsに触れる
 
 
