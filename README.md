@@ -300,4 +300,11 @@ page.tsx ルートーページの固有なUIコンポーネント
 * 【参考リンク】　【公式ドキュメント】　[https://tailwindcss.com/docs/installation](https://tailwindcss.com/docs/installation)
 * 【参考リンク】　[https://reffect.co.jp/html/tailwindcss-for-beginners](https://reffect.co.jp/html/tailwindcss-for-beginners)
 
+## 再度ローカルサーバーを起動してhello worldを確認する
+
+ターミナルから
+
+
+## デプロイをしてみよう!
+
 
