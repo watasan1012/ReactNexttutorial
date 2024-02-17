@@ -100,6 +100,39 @@ Node.jsをインストールする
 % nodenv install 20.11.1
 ```
 
+パッケージの更新
+
+```
+% nodenv rehash
+```
+
+インストールしたnode.jsのバージョンを確認する
+
+```sh
+% nodenv versions
+```
+
+利用するnode.jsのバージョンを指定する
+
+```sh
+% nodenv global 20.11.1
+```
+
+ダウンロードしたNode.jsのバージョンを確認する
+
+```sh
+% nodenv versions
+```
+
+不要なnode.jsのバージョンを削除する
+
+```sh
+% nodenv uninstall 18.18.0
+```
+nodenv: remove /Users/hirotaka/.nodenv/versions/18.18.0? [yN] 
+
+yキーエンター
+
 
 ## Next.jsに触れる
 
