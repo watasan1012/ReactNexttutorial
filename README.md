@@ -133,6 +133,24 @@ nodenv: remove /Users/hirotaka/.nodenv/versions/18.18.0? [yN]
 
 yキーエンター
 
+## 環境構築が終わったか確認する
+
+```sh
+% node -v
+```
+v20.11.1
+
+```sh
+% npm -v
+```
+10.2.4
+
+```sh
+% npx -v
+```
+10.2.4
+
+
 
 ## Next.jsに触れる
 
