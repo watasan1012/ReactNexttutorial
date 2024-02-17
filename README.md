@@ -75,6 +75,8 @@ Latest LTS Version: 20.11.1
 % brew upgrade
 ```
 
+問題を確認する
+
 ```sh
 % brew doctor
 ```
