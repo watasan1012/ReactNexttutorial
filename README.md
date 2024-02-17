@@ -31,7 +31,11 @@ etc…
 ## 開発で使用する言語
 
 * HTML
+ * 【参考リンク】　[https://creatorquest.jp/lessons/html/](https://creatorquest.jp/lessons/html/) 
 * CSS
+ * 【参考リンク】[https://creatorquest.jp/lessons/css/css-intro/](https://creatorquest.jp/lessons/css/css-intro/)
 * JavaScript
   * Typescript TypeScript は、JavaScript に基づいて構築された厳密に型指定されたプログラミング言語。ページ内の動作、処理を作る。
+  * 【参考リンク】　[https://www.typescriptlang.org/](https://www.typescriptlang.org/)
+  * 【参考リンク】　[https://typescriptbook.jp/reference](https://typescriptbook.jp/reference)
 
