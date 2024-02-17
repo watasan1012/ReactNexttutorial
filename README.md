@@ -75,6 +75,9 @@ Latest LTS Version: 20.11.1
 % brew upgrade
 ```
 
+```sh
+% brew doctor
+```
 
 ## Next.jsに触れる
 
