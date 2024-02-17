@@ -220,7 +220,9 @@ No
 
 プロジェクトの作成が起動する
 
+```
 Success! Created sample-next-project at /Users/ユーザーディレクトリ/作業ディレクトリ/sample-next-project
+```
 
 が表示されたら完成です。
 
@@ -239,9 +241,8 @@ Success! Created sample-next-project at /Users/ユーザーディレクトリ/�
 ブラウザーからプロジェクトができたか確認する
 
 以下リンクを表示する
-```
-http://localhost:3000/
-```
+
+[http://localhost:3000/](http://localhost:3000/)
 
 ## Hello world を表示してみよう！
 
@@ -270,11 +271,13 @@ Hello world
 </div>
 ```
 
+```
 /src/app
 ├── favicon.ico
 ├── globals.css
 ├── layout.tsx
 └── page.tsx
+```
 
 globals.css 全体のデザイン設定を行うファイル。
 
