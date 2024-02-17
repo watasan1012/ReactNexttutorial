@@ -1,4 +1,4 @@
-# ReactNexttutorial
+# ReactNext-tutorial
 
 uchiさんのReactNext入門に参加
 
@@ -51,8 +51,26 @@ etc…
 
  * GitHub
   * 【参考リンク】[https://github.com/signup](https://github.com/signup)
+
  * vercel
+  * vercelとは、ホスティングのPaaSです。
+  * Github等のリポジトリと連携させるだけで、簡単にデプロイできます。
   * 【参考リンク】　[https://vercel.com/](https://vercel.com/)
- 
- * 
+
+ * Supabase
+  * Supabaseとは、データベースでBassです。
+
+## Next.jsに触れる
+
+1. プロジェクトの作成
+
+- ターミナルを起動し、以下のコマンドを実行する
+
+
+```
+$ npx create-next-app@latest
+```
+
+
+3. 
 
