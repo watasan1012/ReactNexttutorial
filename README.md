@@ -291,7 +291,7 @@ layout.tsx　複数のページで共有されるUIコンポーネント。
 
 page.tsx ルートーページの固有なUIコンポーネント
 
- * 【参考リンク】[https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts](https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts)
+ * 【参考リンク】 [https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts](https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts)
 
 (補足)TailwindCSSについて
 
