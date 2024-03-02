@@ -494,3 +494,16 @@ sample-next-project　リモートリポジトリのホーム画面が表示さ�
 ```sh
 % git push -u origin main
 ```
+
+Vercelにログインする
+
+[https://vercel.com/login](https://vercel.com/login)
+
+Log in to Vercel 画面　
+
+Coontinue with GitHub をクリックします。
+
+ログインしていた場合は、 左上のアカウント名 projects をクリックします。
+
+
+
