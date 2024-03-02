@@ -403,6 +403,34 @@ Nuxt.jsでは、自動でGitのローカルリポジトリを作成していま�
 
 - 現在のGitの状態を確認しましょう
 
+Gitのユーザー名、メールアドレスを確認する
+
+```sh
+% git config --global --list
+```
+
+user.name=
+user.email=
+
+
+表示されなかったらGithubと同じアカウントを登録する
+
+ユーザー名を登録する
+
+<username> はここで変更してください
+
+```
+% git config --global user.name <username>
+```
+
+メールアドレスを登録する
+
+<emailaddress>　はemailを登録してください
+
+```
+% git config --global user.email <emailaddress>
+```
+
 git branch コマンドで現在のブランチを確認します。
 
 ```
