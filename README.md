@@ -51,6 +51,7 @@ etc…
 
  * GitHub
   * 【参考リンク】 [https://github.com/signup](https://github.com/signup)
+  * 事前にGitHubアカウントを作成してください。
 
  * vercel
   * vercelとは、ホスティングのPaaSです。
@@ -293,7 +294,7 @@ page.tsx ルートーページの固有なUIコンポーネント
 
  * 【参考リンク】 [https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts](https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts)
 
-(補足)TailwindCSSについて
+### (補足)TailwindCSSについて
 
 メリット
   ・ CSSのクラス名を考えなくてよい
@@ -310,7 +311,71 @@ page.tsx ルートーページの固有なUIコンポーネント
 
 ターミナルから
 
+```
+% npm run dev
+```
+
+ブラウザーから、[http://localhost:3000/](http://localhost:3000/) を開いて確認する。
+
+Hello world　が表示されたら完了です。
 
 ## デプロイをしてみよう!
+
+### Vercel とは
+
+フロントエンド開発のプラットフォームで、デプロイ環境を提供する。
+
+[参考サイト](https://dev-harry-next.com/infrastructure/vercel-detail)
+
+① Vercelのアカウントを作成する
+
+[Vercelsignup](https://vercel.com/signup) をブラウザーから開く。
+
+タイトル　Create Your　Vercel Account　が表示されたら、Pran Type を選択する
+
+Plan Type
+├── Hobby
+     I'm working on personal projects
+     Hobby plan 
+     無料　(従量課金なし)
+└── Pro
+     I'm working on commercial projects
+     Pro plan
+     $20
+
+Plan Type Hobby を選択する
+
+Your Name → あだ名でもOK あだ名を入れて
+
+Continue ボタンをクリックします。
+
+Let's connect your Git provider 画面が表示されたら、
+
+Continue　with　GitHub　ボタンをクリックする
+
+Authorize Vercel 画面が表示されます。
+
+Vercel by Vercel would like permission to:
+GitHubへのアクセス許可が求められるので、問題なければ 
+
+緑色の　Authorize Vercel　ボタンをクリックします。
+
+Authenticating - Vercel 
+
+Verification
+
+Please enter your phone number to verify your login. You will receive a single use code to submit.
+
+ログインを確認するために電話番号を入力してください。1回だけ使用できるコードが送信されます。
+
+自身が所有する電話番号を入力して
+
+Continue ボタンをクリックしてください。
+
+Verification
+
+A code has been sent to +81 000 1234 5678.
+Enter it below to complete your sign up.
+ 
 
 
