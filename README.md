@@ -50,7 +50,7 @@ etc…
    * 【参考リンク】 nodebrewを使ってReact環境構築 [https://zenn.dev/shohei_1010/articles/f1ef4454202da7](https://zenn.dev/shohei_1010/articles/f1ef4454202da7)
 
  * GitHub
-  * 【参考リンク】[https://github.com/signup](https://github.com/signup)
+  * 【参考リンク】 [https://github.com/signup](https://github.com/signup)
 
  * vercel
   * vercelとは、ホスティングのPaaSです。
@@ -150,31 +150,29 @@ v20.11.1
 ```
 10.2.4
 
-
-
-## Next.jsに触れる
+## Next.jsに触れてみる!
 
 1. プロジェクトの作成
 
 - ターミナルを起動し、以下のコマンドを実行する
 
-
 ```sh
-$ npx create-next-app@latest
+% npx create-next-app@latest
 ```
 
-```
-create-next-app@14.1.0
+```result
+Need to install the following packages:
+create-next-app@14.1.1
 Ok to proceed? (y)
 ```
 
 y キー　エンターキーの順にクリック
 
-```
+```result
 ? What is your project named? › my-app
 ```
 
-作成するプロジェクトの名前を入力する
+my-app の部分に、作成するプロジェクトの名前を入力する
 
 sample-next-project
 
@@ -244,9 +242,17 @@ Success! Created sample-next-project at /Users/ユーザーディレクトリ/�
 
 ## Hello world を表示してみよう！
 
-sample-next-project ディレクトリをVS Code で表示する
+sample-next-project ディレクトリを VS Code で表示する
 
 sample-next-project/src/app にある、page.tsx　ファイルを編集する
+
+```
+/src/app
+├── favicon.ico
+├── globals.css
+├── layout.tsx
+└── page.tsx
+```
 
 32行目から39行目を削除し、「Hello world」とします。
 
@@ -267,14 +273,6 @@ sample-next-project/src/app にある、page.tsx　ファイルを編集する
 <div className="relative クラス名は多いので記述上省略>
 Hello world
 </div>
-```
-
-```
-/src/app
-├── favicon.ico
-├── globals.css
-├── layout.tsx
-└── page.tsx
 ```
 
 globals.css 全体のデザイン設定を行うファイル。
