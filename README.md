@@ -467,5 +467,25 @@ git commitでスナップショットをコミットする
 
 nothing to commit, working tree clean
 
+- ローカルリポジトリの内容をリモートリポジトリに反映
 
+Githubにログインし、Githubダッシュボードより、リモートリポジトリを作成します。
+
+右上の[+]　ボタンをクリックし、[New repository] をクリック
+
+Create a new repository 画面が表示されたら、
+
+Repository name → sample-next-project　
+
+ローカルのリポジトリ名と　Githubのリモートリポジトリ名を一緒にする
+
+Public 公開 Private 非公開を選択する
+
+Create repository ボタンをクリックします。
+
+sample-next-project　リモートリポジトリのホーム画面が表示されます。
+
+```sh
+% git remote add origin git@github.com:Githubname/RemoteRipository.git
+```
 
