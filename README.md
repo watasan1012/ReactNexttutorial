@@ -247,7 +247,7 @@ sample-next-project ディレクトリを VS Code で表示する
 sample-next-project/src/app にある、page.tsx　ファイルを編集する
 
 ```
-/src/app
+sample-next-project/src/app
 ├── favicon.ico
 ├── globals.css
 ├── layout.tsx
@@ -273,6 +273,16 @@ sample-next-project/src/app にある、page.tsx　ファイルを編集する
 <div className="relative クラス名は多いので記述上省略>
 Hello world
 </div>
+```
+
+### 各ファイルの説明
+
+```
+sample-next-project/src/app
+├── favicon.ico
+├── globals.css
+├── layout.tsx
+└── page.tsx
 ```
 
 globals.css 全体のデザイン設定を行うファイル。
