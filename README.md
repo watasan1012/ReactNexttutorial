@@ -382,6 +382,62 @@ Enter it below to complete your sign up.
 入力した電話番号に4桁の数字がSMSで届くので入力する。
 
 Vercelのアカウントが作成されました。
- 
+
+### Vercelのアカウントが作成できたのでデプロイしてみましょう
+
+- sample-next-project　プロジェクトをGithubにpushする
+- sample-next-project　プロジェクト　をVercelで選択し、Deployする
+
+① sample-next-project　プロジェクトをGithubにPushする
+
+1. ローカルのプロジェクトをGithubへアップロードする
+Nuxt.jsでは、自動でGitのローカルリポジトリを作成しています。
+
+ターミナルより、sample-next-project プロジェクトルートディレクトリに移動する
+
+- Gitのトラッキングの対象外のファイルを指定する
+
+```sh
+% echo '.DS_Store' >> .gitignore
+```
+
+- 現在のGitの状態を確認しましょう
+
+git branch コマンドで現在のブランチを確認します。
+
+```
+% git branch
+```
+
+* main
+
+現在のブランチに*がついています。
+
+sample-next-project プロジェクトルートディレクトリ の状態を確認する
+
+```sh
+% git status
+```
+
+modified:   src/app/page.tsx
+
+リポジトリと違いがあることがわかります。
+
+ステージエリアにファイルを追加する
+
+```sh
+% git add .
+```
+
+modified:   src/app/page.tsx
+
+git commitでスナップショットをコミットする
+
+```sh
+% git commit -m "hello world add"
+```
+
+nothing to commit, working tree clean
+
 
 
