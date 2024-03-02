@@ -489,3 +489,8 @@ sample-next-project　リモートリポジトリのホーム画面が表示さ�
 % git remote add origin git@github.com:Githubname/RemoteRipository.git
 ```
 
+ローカルリポジトリの内容をリモートリポジトリにPush(アップロード)します。
+
+```sh
+% git push -u origin main
+```
