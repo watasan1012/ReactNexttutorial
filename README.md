@@ -370,12 +370,18 @@ Please enter your phone number to verify your login. You will receive a single u
 
 自身が所有する電話番号を入力して
 
+一度、日本を選びます。そのあと、自動で入力された81を消して自分の電話番号を入力する
+
 Continue ボタンをクリックしてください。
 
-Verification
+Verification 画面が表示されます。
 
 A code has been sent to +81 000 1234 5678.
 Enter it below to complete your sign up.
+
+入力した電話番号に4桁の数字がSMSで届くので入力する。
+
+Vercelのアカウントが作成されました。
  
 
 
