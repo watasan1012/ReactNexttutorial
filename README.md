@@ -505,5 +505,28 @@ Coontinue with GitHub をクリックします。
 
 ログインしていた場合は、 左上のアカウント名 projects をクリックします。
 
+Deploy your first project　画面が表示されます。
+
+Start with one of our templates or create something new.
+
+私たちのテンプレートのいずれかを使用して開始するか、新しい何かを作成します。
+
+リストから、Next.js App and a Serverless Function API 横の Deploy をクリックします。
+
+Create Git Repository　
+
+To ensure you can easily update your project after deploying it, a Git repository must be created. Every push to that Git repository will be deployed automatically.
+
+デプロイ後にプロジェクトを簡単に更新できるようにするには、Git リポジトリを作成する必要があります。そのGitリポジトリへのプッシュはすべて自動的にデプロイされます。
+
+Git Scope のセレクトボックス　を選択して Select Git Scope から　Add GitHub Account　を選択します。
+
+Install Vercel　画面が表示されるので
+
+Where do you want to install Vercel?
+インストール先のGitHubアカウントを選択します。
+
+
+
 
 
