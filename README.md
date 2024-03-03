@@ -513,18 +513,45 @@ Start with one of our templates or create something new.
 
 リストから、Next.js App and a Serverless Function API 横の Deploy をクリックします。
 
-Create Git Repository　
+Create Git Repository　 画面
 
 To ensure you can easily update your project after deploying it, a Git repository must be created. Every push to that Git repository will be deployed automatically.
 
 デプロイ後にプロジェクトを簡単に更新できるようにするには、Git リポジトリを作成する必要があります。そのGitリポジトリへのプッシュはすべて自動的にデプロイされます。
 
-Git Scope のセレクトボックス　を選択して Select Git Scope から　Add GitHub Account　を選択します。
+Git Scope の Select Git Scope というセレクトボックス　を選択して Select Git Scope から　Add GitHub Account　を選択します。
 
 Install Vercel　画面が表示されるので
 
 Where do you want to install Vercel?
+
 インストール先のGitHubアカウントを選択します。
+
+Install Vercel 画面が表示されるので
+
+Install on your personal account 
+
+インストール先　アカウント名 を確認して
+
+VercelからアクセスできるGitHubのリポジトリを指定する
+
+すべてのリポジトリへのアクセスを許可する場合は、「All repositories」を選択する。
+
+選択したリポジトリへのアクセスのみ許可する場合は、「Only select repositories」を選択する。
+
+今回は、作成したGithubにある、Next.jsのリポジトリを指定するので。自分は、Only select repositories を選択して、プロジェクトのリポジトリを指定しました。
+
+アカウント名/リモートリポジトリ名　が選択されればOKです。
+
+緑色のInstall ボタンをクリックします。
+
+Confirm access 画面が表示されます？
+
+アクセス確認画面　が表示されるのでGitHubのPasswordを入力します。
+
+緑色のConfirm　ボタンをクリックします。
+
+GitHub Installation Completed　画面が表示されます。
 
 
 
