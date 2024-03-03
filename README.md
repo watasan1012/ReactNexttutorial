@@ -555,5 +555,9 @@ GitHub Installation Completed　画面が表示されます。
 
 再度、Create Git Repository　画面に遷移するので、
 
+Repository Name に、ローカルリポジトリ名 sample-next-project を入力してCreate　ボタンをクリックします。
+
+
+
 
 
