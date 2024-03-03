@@ -553,7 +553,7 @@ Confirm access 画面が表示されます？
 
 GitHub Installation Completed　画面が表示されます。
 
-
+再度、Create Git Repository　画面に遷移するので、
 
 
 
