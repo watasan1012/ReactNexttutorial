@@ -33,7 +33,8 @@ etc…
 ### 開発で使用する言語
 
 * HTML
- * 【参考リンク】　[https://creatorquest.jp/lessons/html/](https://creatorquest.jp/lessons/html/) 
+ * HTML(HyperText Markup Language、ハイパーテキスト・マークアップランゲージ)は、ウェブサイトのコンテンツの構造を作るために使うコード。ページ内の表示を作る。
+ * 【参考リンク】　[https://creatorquest.jp/lessons/html/](https://creatorquest.jp/lessons/html/)
 * CSS
  * 【参考リンク】 [https://creatorquest.jp/lessons/css/css-intro/](https://creatorquest.jp/lessons/css/css-intro/)
 * JavaScript
