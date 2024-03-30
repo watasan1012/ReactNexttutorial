@@ -36,7 +36,9 @@ etc…
  * HTML(HyperText Markup Language、ハイパーテキスト・マークアップランゲージ)は、ウェブサイトのコンテンツの構造を作るために使うコード。ページ内の表示を作る。
  * 【参考リンク】　[https://creatorquest.jp/lessons/html/](https://creatorquest.jp/lessons/html/)
 * CSS
+ * CSS (Casgading Style Sheets)は、ウェブページのスタイルを設定するコード。ページ内のデザインを作る。
  * 【参考リンク】 [https://creatorquest.jp/lessons/css/css-intro/](https://creatorquest.jp/lessons/css/css-intro/)
+ * 【参考リンク】 [https://www.webcreatorbox.com/tech/css-flexbox-cheat-sheet](https://www.webcreatorbox.com/tech/css-flexbox-cheat-sheet)
 * JavaScript
   * Typescript TypeScript は、JavaScript に基づいて構築された厳密に型指定されたプログラミング言語。ページ内の動作、処理を作る。
   * 【参考リンク】　[https://www.typescriptlang.org/](https://www.typescriptlang.org/)
