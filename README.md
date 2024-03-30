@@ -8,8 +8,9 @@ uchiさんのReactNext.js入門に参加
 
 * Next.jsとは
 * 開発環境について
+* デプロイするための環境構築する
 * Next.jsに触れる
-* デプロイをしよう
+* 
 * プロフィールページの作成
 * Todoアプリ作成
 * (おまけ)今後に向けて
@@ -155,6 +156,148 @@ v20.12.0
 % npx -v
 ```
 10.5.0
+
+## デプロイするための環境構築する
+
+### Vercel とは
+
+フロントエンド開発のプラットフォームで、デプロイ環境を提供する。
+
+[参考サイト](https://dev-harry-next.com/infrastructure/vercel-detail)
+
+① Vercelのアカウントを作成する
+
+[Vercelsignup](https://vercel.com/signup) をブラウザーから開く。
+
+タイトル　Create Your　Vercel Account　が表示されたら、Pran Type を選択する
+
+Plan Type
+├── Hobby
+     I'm working on personal projects
+     Hobby plan 
+     無料　(従量課金なし)
+└── Pro
+     I'm working on commercial projects
+     Pro plan
+     $20
+
+Plan Type Hobby を選択する
+
+Your Name → あだ名でもOK あだ名を入れて
+
+Continue ボタンをクリックします。
+
+Let's connect your Git provider 画面が表示されたら、
+
+Continue　with　GitHub　ボタンをクリックする
+
+Authorize Vercel 画面が表示されます。
+
+Vercel by Vercel would like permission to:
+GitHubへのアクセス許可が求められるので、問題なければ 
+
+緑色の　Authorize Vercel　ボタンをクリックします。
+
+Authenticating - Vercel 
+
+Verification
+
+Please enter your phone number to verify your login. You will receive a single use code to submit.
+
+ログインを確認するために電話番号を入力してください。1回だけ使用できるコードが送信されます。
+
+自身が所有する電話番号を入力して
+
+一度、日本を選びます。そのあと、自動で入力された81を消して自分の電話番号を入力する
+
+Continue ボタンをクリックしてください。
+
+Verification 画面が表示されます。
+
+A code has been sent to +81 000 1234 5678.
+Enter it below to complete your sign up.
+
+入力した電話番号に4桁の数字がSMSで届くので入力する。
+
+Vercelのアカウントが作成されました。
+
+### Vercelのアカウントが作成できたのでデプロイしてみましょう
+
+- sample-next-project　プロジェクトをGithubにpushする
+- sample-next-project　プロジェクト　をVercelで選択し、Deployする
+
+
+Vercelにログインする
+
+[https://vercel.com/login](https://vercel.com/login)
+
+Log in to Vercel 画面　
+
+Coontinue with GitHub をクリックします。
+
+ログインしていた場合は、 左上のアカウント名 projects をクリックします。
+
+Deploy your first project　画面が表示されます。
+
+Start with one of our templates or create something new.
+
+私たちのテンプレートのいずれかを使用して開始するか、新しい何かを作成します。
+
+リストから、Next.js App and a Serverless Function API 横の Deploy をクリックします。
+
+Create Git Repository　 画面
+
+To ensure you can easily update your project after deploying it, a Git repository must be created. Every push to that Git repository will be deployed automatically.
+
+デプロイ後にプロジェクトを簡単に更新できるようにするには、Git リポジトリを作成する必要があります。そのGitリポジトリへのプッシュはすべて自動的にデプロイされます。
+
+Git Scope の Select Git Scope というセレクトボックス　を選択して Select Git Scope から　Add GitHub Account　を選択します。
+
+Install Vercel　画面が表示されるので
+
+Where do you want to install Vercel?
+
+インストール先のGitHubアカウントを選択します。
+
+Install Vercel 画面が表示されるので
+
+Install on your personal account 
+
+インストール先　アカウント名 を確認して
+
+VercelからアクセスできるGitHubのリポジトリを指定する
+
+すべてのリポジトリへのアクセスを許可する場合は、「All repositories」を選択する。
+
+選択したリポジトリへのアクセスのみ許可する場合は、「Only select repositories」を選択する。
+
+今回は、作成したGithubにある、Next.jsのリポジトリを指定するので。自分は、Only select repositories を選択して、プロジェクトのリポジトリを指定しました。
+
+アカウント名/リモートリポジトリ名　が選択されればOKです。
+
+緑色のInstall ボタンをクリックします。
+
+Confirm access 画面が表示されます？
+
+アクセス確認画面　が表示されるのでGitHubのPasswordを入力します。
+
+緑色のConfirm　ボタンをクリックします。
+
+GitHub Installation Completed　画面が表示されます。
+
+再度、Create Git Repository　画面に遷移するので、
+
+Repository Name に、ローカルリポジトリ名 sample-next-project を入力してCreate　ボタンをクリックします。
+
+
+
+
+
+
+
+
+
+
 
 ## Next.jsに触れてみる!
 
@@ -435,143 +578,3 @@ sample-next-project　リモートリポジトリのホーム画面が表示さ�
 ```sh
 % git push -u origin main
 ```
-
-
-
-
-## デプロイをしてみよう!
-
-### Vercel とは
-
-フロントエンド開発のプラットフォームで、デプロイ環境を提供する。
-
-[参考サイト](https://dev-harry-next.com/infrastructure/vercel-detail)
-
-① Vercelのアカウントを作成する
-
-[Vercelsignup](https://vercel.com/signup) をブラウザーから開く。
-
-タイトル　Create Your　Vercel Account　が表示されたら、Pran Type を選択する
-
-Plan Type
-├── Hobby
-     I'm working on personal projects
-     Hobby plan 
-     無料　(従量課金なし)
-└── Pro
-     I'm working on commercial projects
-     Pro plan
-     $20
-
-Plan Type Hobby を選択する
-
-Your Name → あだ名でもOK あだ名を入れて
-
-Continue ボタンをクリックします。
-
-Let's connect your Git provider 画面が表示されたら、
-
-Continue　with　GitHub　ボタンをクリックする
-
-Authorize Vercel 画面が表示されます。
-
-Vercel by Vercel would like permission to:
-GitHubへのアクセス許可が求められるので、問題なければ 
-
-緑色の　Authorize Vercel　ボタンをクリックします。
-
-Authenticating - Vercel 
-
-Verification
-
-Please enter your phone number to verify your login. You will receive a single use code to submit.
-
-ログインを確認するために電話番号を入力してください。1回だけ使用できるコードが送信されます。
-
-自身が所有する電話番号を入力して
-
-一度、日本を選びます。そのあと、自動で入力された81を消して自分の電話番号を入力する
-
-Continue ボタンをクリックしてください。
-
-Verification 画面が表示されます。
-
-A code has been sent to +81 000 1234 5678.
-Enter it below to complete your sign up.
-
-入力した電話番号に4桁の数字がSMSで届くので入力する。
-
-Vercelのアカウントが作成されました。
-
-### Vercelのアカウントが作成できたのでデプロイしてみましょう
-
-- sample-next-project　プロジェクトをGithubにpushする
-- sample-next-project　プロジェクト　をVercelで選択し、Deployする
-
-
-Vercelにログインする
-
-[https://vercel.com/login](https://vercel.com/login)
-
-Log in to Vercel 画面　
-
-Coontinue with GitHub をクリックします。
-
-ログインしていた場合は、 左上のアカウント名 projects をクリックします。
-
-Deploy your first project　画面が表示されます。
-
-Start with one of our templates or create something new.
-
-私たちのテンプレートのいずれかを使用して開始するか、新しい何かを作成します。
-
-リストから、Next.js App and a Serverless Function API 横の Deploy をクリックします。
-
-Create Git Repository　 画面
-
-To ensure you can easily update your project after deploying it, a Git repository must be created. Every push to that Git repository will be deployed automatically.
-
-デプロイ後にプロジェクトを簡単に更新できるようにするには、Git リポジトリを作成する必要があります。そのGitリポジトリへのプッシュはすべて自動的にデプロイされます。
-
-Git Scope の Select Git Scope というセレクトボックス　を選択して Select Git Scope から　Add GitHub Account　を選択します。
-
-Install Vercel　画面が表示されるので
-
-Where do you want to install Vercel?
-
-インストール先のGitHubアカウントを選択します。
-
-Install Vercel 画面が表示されるので
-
-Install on your personal account 
-
-インストール先　アカウント名 を確認して
-
-VercelからアクセスできるGitHubのリポジトリを指定する
-
-すべてのリポジトリへのアクセスを許可する場合は、「All repositories」を選択する。
-
-選択したリポジトリへのアクセスのみ許可する場合は、「Only select repositories」を選択する。
-
-今回は、作成したGithubにある、Next.jsのリポジトリを指定するので。自分は、Only select repositories を選択して、プロジェクトのリポジトリを指定しました。
-
-アカウント名/リモートリポジトリ名　が選択されればOKです。
-
-緑色のInstall ボタンをクリックします。
-
-Confirm access 画面が表示されます？
-
-アクセス確認画面　が表示されるのでGitHubのPasswordを入力します。
-
-緑色のConfirm　ボタンをクリックします。
-
-GitHub Installation Completed　画面が表示されます。
-
-再度、Create Git Repository　画面に遷移するので、
-
-Repository Name に、ローカルリポジトリ名 sample-next-project を入力してCreate　ボタンをクリックします。
-
-
-
-
-
