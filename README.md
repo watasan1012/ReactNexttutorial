@@ -171,6 +171,7 @@ v20.12.0
 
 タイトル　Create Your Vercel Account　が表示されたら、Pran Type を選択する
 
+```
 Plan Type
 ├── Hobby  
      I'm working on personal projects  
@@ -180,6 +181,7 @@ Plan Type
      I'm working on commercial projects  
      Pro plan  
      $20  
+```
 
 Plan Type　から Hobby を選択する
 
