@@ -165,7 +165,7 @@ v20.12.0
 
 [参考サイト](https://dev-harry-next.com/infrastructure/vercel-detail)
 
-① Vercelのアカウントを作成する
+### Vercelのアカウントを作成する
 
 [Vercelsignup](https://vercel.com/signup) をブラウザーから開く。
 
@@ -221,19 +221,13 @@ Enter it below to complete your sign up.
 
 Vercelのアカウントが作成されました。
 
-### Vercelのアカウントが作成できたのでデプロイしてみましょう
-
-- sample-next-project　プロジェクトをGithubにpushする
-- sample-next-project　プロジェクト　をVercelで選択し、Deployする
-
-
-Vercelにログインする
+### Vercelにログインする
 
 [https://vercel.com/login](https://vercel.com/login)
 
 Log in to Vercel 画面　
 
-Coontinue with GitHub をクリックします。
+Continue with GitHub をクリックします。
 
 ログインしていた場合は、 左上のアカウント名 projects をクリックします。
 
@@ -288,6 +282,12 @@ GitHub Installation Completed　画面が表示されます。
 再度、Create Git Repository　画面に遷移するので、
 
 Repository Name に、ローカルリポジトリ名 sample-next-project を入力してCreate　ボタンをクリックします。
+
+
+### Vercelのアカウントが作成できたのでデプロイしてみましょう
+
+- sample-next-project　プロジェクトをGithubにpushする
+- sample-next-project　プロジェクト　をVercelで選択し、Deployする
 
 
 
