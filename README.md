@@ -103,7 +103,7 @@ nodenvでnode.jsをインストールしたことがわかります。
 Node.jsをインストールする
 
 ```sh
-% nodenv install 20.11.1
+% nodenv install 20.12.0
 ```
 
 パッケージの更新
