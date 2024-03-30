@@ -189,7 +189,7 @@ Continue ボタンをクリックします。
 
 Let's connect your Git provider 画面が表示されたら、
 
-Continue　with　GitHub　ボタンをクリックする
+Continue with　GitHub　ボタンをクリックする
 
 Authorize Vercel 画面が表示されます。
 
