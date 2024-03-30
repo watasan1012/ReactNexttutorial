@@ -16,7 +16,7 @@ uchiさんのReactNext.js入門に参加
 
 ## Next.jsとは
 
-Vercel社が開発したWeb アプリを構築できる React Framework
+Vercel社が開発したWebアプリを構築できる React Framework
 React Components を使用してUIを構築できる
 
 ## 機能特徴
