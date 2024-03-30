@@ -1,6 +1,6 @@
 # ReactNext-tutorial
 
-uchiさんのReactNext入門に参加
+uchiさんのReactNext.js入門に参加
 
 45分　集中　ポモドーロ　テックニックを使ったやり方
 
