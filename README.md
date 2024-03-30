@@ -108,7 +108,7 @@ Node.jsをインストールする
 
 パッケージの更新
 
-```
+```sh
 % nodenv rehash
 ```
 
@@ -121,7 +121,7 @@ Node.jsをインストールする
 利用するnode.jsのバージョンを指定する
 
 ```sh
-% nodenv global 20.11.1
+% nodenv global 20.12.0
 ```
 
 ダウンロードしたNode.jsのバージョンを確認する
@@ -133,7 +133,7 @@ Node.jsをインストールする
 不要なnode.jsのバージョンを削除する
 
 ```sh
-% nodenv uninstall 18.18.0
+% nodenv uninstall 20.11.1
 ```
 nodenv: remove /Users/hirotaka/.nodenv/versions/18.18.0? [yN] 
 
