@@ -188,11 +188,11 @@ Your Name → あだ名でもOK あだ名を入れて
 
 Continue ボタンをクリックします。
 
-### Let's connect your Git provider 画面が表示
+・ Let's connect your Git provider 画面が表示
 
 Continue with　GitHub　ボタンをクリックします。
 
-### Authorize Vercel 画面が表示
+・ Authorize Vercel 画面が表示
 
 Vercel by Vercel would like permission to:
 GitHubへのアクセス許可が求められるので、問題なければ 
@@ -222,7 +222,7 @@ Enter it below to complete your sign up.
 
 Vercelのアカウントが作成されました。
 
-### Vercelにログインする
+左側上部のVercel　ロゴをクリックするかVercelにログインする
 
 [https://vercel.com/login](https://vercel.com/login)
 
