@@ -189,11 +189,11 @@ Your Name → あだ名でもOK あだ名を入力します。
 
 Continue ボタンをクリックします。
 
-・ Let's connect your Git provider 画面が表示
+・ Let's connect your Git provider 画面を表示
 
 Continue with　GitHub　ボタンをクリックします。
 
-・ Authorize Vercel 画面が表示
+・ Authorize Vercel 画面を表示
 
 Vercel by Vercel would like permission to:
 GitHubへのアクセス許可が求められるので、問題なければ 
@@ -491,7 +491,7 @@ $ pbcopy < ~/.ssh/id_rsa.pub
 
 windows
 ```sh
-$ clip < ~/.ssh/id_rsa.pub (Windows)
+$ clip < ~/.ssh/id_rsa.pub
 ```
 
 Add SSH key ボタンをクリックする
@@ -621,6 +621,64 @@ Where do you want to install Vercel?
 Install on your personal account Github　アカウントロゴ
 
 for these repositories:
+
+- All repositories
+
+This applies to all current and future repositories owned by the resource owner.
+
+Also includes public repositories (read-only).
+
+全てのリポジトリに適用されます。
+
+パブリックリポジトリ(読み取り専用)も含まれます。
+
+- Only select repositories
+Select at least one repository.
+
+Also includes public repositories (read-only).
+
+リポジトリを選択する
+
+どちら選択する
+
+Only select repositories　をチェックを入れると
+
+Select repositories のプルダウンから、作成した、Githubアカウント名/sample-next-project を選択します。
+
+Install ボタンをクリックします。
+
+### Confirm access 画面
+
+Passkey
+When you are ready, authenticate using the button below.
+
+パスキー
+準備ができましたら、下のボタンで認証してください。
+
+Use passkey ボタンをクリックします。
+
+Google Chrome 画面が表示されたら
+
+パスワードを使用...をクリックします。
+
+macを起動する時のパスワードを入れて完了です。
+
+### 確認
+
+確認してcreate ボタンをクリックします。
+
+### Deploy 画面が表示されます
+
+
+Deployment started 53s ago...
+
+デブロイ　が開始されます。
+
+### Congratulations!　画面が表示
+
+You just deployed a new Project to Vercel.
+
+Congratulations!　の下にある画像をクリックするとデブロイ結果に画面遷移して確認できます。
 
 
 
