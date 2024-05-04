@@ -509,7 +509,7 @@ Hi Githubアカウント名! You've successfully authenticated, but GitHub does 
 ~/.ssh/configを作成しその中に
 
 ```
-Host github.com.sub # サブアカウント
+Host github.com.sub
   HostName github.com
   User git
   Port 22
@@ -580,10 +580,17 @@ fatal　や　error　が表示されたら、HTTPS 接続か、SSH接続を疑�
 origin	git@github.com:Githubアカウント名/sample-next-project.git (fetch)
 origin	git@github.com:Githubアカウント名/sample-next-project.git (push)
 
+Github登録時の　SSHキーと同じであることを確認する
+
+git@github.com:Githubアカウント名/sample-next-project.git
+
 -> remoteがaddされていることを確認
 
-git remote set-url origin https://github.com/watasan3/sample-next-project.git
+#### 違う場合は　git remote set-url origin コマンドで修正する
 
+```sh
+git remote set-url origin https://github.com/Githubアカウント名/sample-next-project.git
+```
 
 
 
