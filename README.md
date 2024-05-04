@@ -226,9 +226,15 @@ Vercelのアカウントが作成されました。
 
 [https://vercel.com/login](https://vercel.com/login)
 
-Log in to Vercel 画面　
+## Next.jsに触れる
 
-Continue with GitHub をクリックします。
+
+
+
+
+
+
+
 
 ログインしていた場合は、 左上のアカウント名 projects をクリックします。
 
