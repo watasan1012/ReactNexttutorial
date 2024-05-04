@@ -565,8 +565,9 @@ upstream, see 'push.autoSetupRemote' in 'git help config'.
 
 と表示されたら指示通り、実行してみる
 
-
-
+```sh
+% git push --set-upstream origin main
+```
 
 fatal　や　error　が表示されたら、HTTPS 接続か、SSH接続を疑う
 
