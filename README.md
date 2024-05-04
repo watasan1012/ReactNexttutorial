@@ -190,9 +190,9 @@ Continue ボタンをクリックします。
 
 Let's connect your Git provider 画面が表示されたら、
 
-Continue with　GitHub　ボタンをクリックする
+Continue with　GitHub　ボタンをクリックします。
 
-Authorize Vercel 画面が表示されます。
+### Authorize Vercel 画面が表示
 
 Vercel by Vercel would like permission to:
 GitHubへのアクセス許可が求められるので、問題なければ 
