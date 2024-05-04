@@ -441,6 +441,84 @@ user.email=
 
 - GitHubのSSH接続を設定する
 
+### 公開鍵・秘密鍵を作成する
+
+#### 鍵を入れるフォルダに移動しましょう
+
+```
+% cd ~/.ssh
+```
+
+#### 次のコマンドで鍵を生成します
+
+```sh
+% ssh-keygen -t rsa
+```
+
+Enter file in which to save the key (/Users/ユーザー名/.ssh/id_rsa): 
+
+Enter キーをクリックする
+
+/Users/ユーザー名/.ssh/id_rsa already exists.
+Overwrite (y/n)?
+
+y キーの次に　enter キー
+
+Enter passphrase (empty for no passphrase):
+
+enter キー
+
+Enter same passphrase again: 
+
+enter キー
+
+#### 公開鍵をGitHubにアップする
+
+[https://github.com/settings/ssh](https://github.com/settings/ssh/new)
+
+Add new SSH Key 画面が表示されたら、
+
+Title　なんでもいい
+
+Key　先ほど作成した公開鍵を貼り付ける
+
+なお、鍵の中身のクリップボードへのコピーは
+
+Mac
+```
+$ pbcopy < ~/.ssh/id_rsa.pub
+```
+
+windows
+```sh
+$ clip < ~/.ssh/id_rsa.pub (Windows)
+```
+
+Add SSH key ボタンをクリックする
+
+#### 接続確認
+
+```sh
+% ssh -T git@github.com
+```
+
+Hi Githubアカウント名! You've successfully authenticated, but GitHub does not provide shell access.
+
+#### config ファイルを作成する
+
+~/.ssh/configを作成しその中に
+
+```
+Host github.com.sub # サブアカウント
+  HostName github.com
+  User git
+  Port 22
+  IdentityFile ~/.ssh/id_rsa
+  TCPKeepAlive yes
+  IdentitiesOnly yes
+```
+
+
 #### Githubにリモートリポジトリを作成する
 
 [https://github.com/new](https://github.com/new)
@@ -450,6 +528,8 @@ Repository name → sample-next-project
 公開設定は Public Private どちらでも大丈夫です。
 
 Create repository ボタンをクリックする
+
+sample-next-project プロジェクトのルートディレクトリより
 
 ```sh
 % git status
@@ -464,7 +544,7 @@ Create repository ボタンをクリックする
 ```
 
 ```sh
-% git remote add origin https://github.com/watasan3/sample-next-project.git
+%　git remote add origin git@github.com:Githubアカウント名/sample-next-project.git
 ```
 
 ```sh
@@ -475,12 +555,15 @@ Create repository ボタンをクリックする
 % git push -u origin main
 ```
 
-Username for 'https://github.com':
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
 
-と表示されたら、Gitのアカウント名を登録します。
+    git push --set-upstream origin main
 
-Password for 'https://Githubアカウント名@github.com': 
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
 
+と表示されたら指示通り、実行してみる
 
 
 
