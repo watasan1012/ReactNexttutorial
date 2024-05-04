@@ -230,6 +230,174 @@ Vercelのアカウントが作成されました。
 
 ### プロプロジェクトの作成 1
 
+- ターミナルを起動し、以下のコマンドを実行する
+
+```sh
+% npx create-next-app@latest
+```
+
+```result
+Need to install the following packages:
+create-next-app@14.2.3
+Ok to proceed? (y) 
+```
+
+y キー　エンターキーの順にクリック
+
+```result
+? What is your project named? › my-app
+```
+
+my-app の部分に、作成するプロジェクトの名前を入力する
+
+sample-next-project
+
+### ? TypeScriptを使いたいですか？いいえ / はい
+
+```sh
+? Would you like to use TypeScript? › No / Yes
+```
+
+矢印キーでカーソルを変更できます。アンダースコアがあるほうが選択状態です。
+enterキーで確定です。
+
+Yes
+
+```sh
+? Would you like to use ESLint? › No / Yes
+```
+
+Yes
+
+```
+? Would you like to use Tailwind CSS? › No / Yes
+```
+
+Yes
+
+```
+? Would you like to use `src/` directory? › No / Yes
+```
+
+Yes
+
+```
+? Would you like to use App Router? (recommended) › No / Yes
+```
+
+Yes
+
+```
+? Would you like to customize the default import alias (@/*)? › No / Yes
+```
+
+No
+
+プロジェクトの作成が起動する
+
+```
+Success! Created sample-next-project at /Users/ユーザーディレクトリ/作業ディレクトリ/sample-next-project
+```
+
+が表示されたら完成です。
+
+作業ディレクトリに移動します。
+
+```sh
+% cd sample-next-project
+```
+
+サーバーを起動する
+
+```sh
+ % npm run dev
+```
+
+ブラウザーからプロジェクトができたか確認する
+
+以下リンクを表示する
+
+[http://localhost:3000/](http://localhost:3000/)
+
+### Hello world を表示してみよう！
+
+sample-next-project ディレクトリを VS Code で表示する
+
+sample-next-project/src/app にある、page.tsx　ファイルを編集する
+
+```
+sample-next-project/src/app
+├── favicon.ico
+├── globals.css
+├── layout.tsx
+└── page.tsx
+```
+
+32行目から39行目を削除し、「Hello world」とします。
+
+```
+        <Image
+          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+          src="/next.svg"
+          alt="Next.js Logo"
+          width={180}
+          height={37}
+          priority
+        />
+```
+
+以下に変更
+
+```
+<div className="relative クラス名は多いので記述上省略>
+Hello world
+</div>
+```
+
+### 各ファイルの説明
+
+```
+sample-next-project/src/app
+├── favicon.ico
+├── globals.css
+├── layout.tsx
+└── page.tsx
+```
+
+globals.css 全体のデザイン設定を行うファイル。
+
+layout.tsx　複数のページで共有されるUIコンポーネント。
+
+page.tsx ルートーページの固有なUIコンポーネント
+
+ * 【参考リンク】 [https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts](https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts)
+
+### (補足)TailwindCSSについて
+
+メリット
+  ・ CSSのクラス名を考えなくてよい
+  ・ CSSの管理が楽になる
+
+デメリット
+  ・ CSSのコーディングを忘れてしまう
+  ・　クラス名が長くなり、可読性が下がってしまう
+
+* 【参考リンク】　【公式ドキュメント】　[https://tailwindcss.com/docs/installation](https://tailwindcss.com/docs/installation)
+* 【参考リンク】　[https://reffect.co.jp/html/tailwindcss-for-beginners](https://reffect.co.jp/html/tailwindcss-for-beginners)
+
+## 再度ローカルサーバーを起動してhello worldを確認する
+
+ターミナルから
+
+```
+% npm run dev
+```
+
+ブラウザーから、[http://localhost:3000/](http://localhost:3000/) を開いて確認する。
+
+Hello world　が表示されたら完了です。
+
+
 
 
 
@@ -308,173 +476,7 @@ Repository Name に、ローカルリポジトリ名 sample-next-project を入�
 
 
 
-## Next.jsに触れてみる!
 
-1. プロジェクトの作成
-
-- ターミナルを起動し、以下のコマンドを実行する
-
-```sh
-% npx create-next-app@latest
-```
-
-```result
-Need to install the following packages:
-create-next-app@14.1.1
-Ok to proceed? (y)
-```
-
-y キー　エンターキーの順にクリック
-
-```result
-? What is your project named? › my-app
-```
-
-my-app の部分に、作成するプロジェクトの名前を入力する
-
-sample-next-project
-
-```sh
-? Would you like to use TypeScript? › No / Yes
-```
-
-Yes
-
-```sh
-? Would you like to use ESLint? › No / Yes
-```
-
-Yes
-
-```
-? Would you like to use Tailwind CSS? › No / Yes
-```
-
-Yes
-
-```
-? Would you like to use `src/` directory? › No / Yes
-```
-
-Yes
-
-本業　css in js
-
-```
-? Would you like to use App Router? (recommended) › No / Yes
-```
-
-Yes
-
-```
-? Would you like to customize the default import alias (@/*)? › No / Yes
-```
-
-No
-
-プロジェクトの作成が起動する
-
-```
-Success! Created sample-next-project at /Users/ユーザーディレクトリ/作業ディレクトリ/sample-next-project
-```
-
-が表示されたら完成です。
-
-作業ディレクトリに移動します。
-
-```sh
-% cd sample-next-project
-```
-
-サーバーを起動する
-
-```sh
- % npm run dev
-```
-
-ブラウザーからプロジェクトができたか確認する
-
-以下リンクを表示する
-
-[http://localhost:3000/](http://localhost:3000/)
-
-## Hello world を表示してみよう！
-
-sample-next-project ディレクトリを VS Code で表示する
-
-sample-next-project/src/app にある、page.tsx　ファイルを編集する
-
-```
-sample-next-project/src/app
-├── favicon.ico
-├── globals.css
-├── layout.tsx
-└── page.tsx
-```
-
-32行目から39行目を削除し、「Hello world」とします。
-
-```
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-```
-
-以下に変更
-
-```
-<div className="relative クラス名は多いので記述上省略>
-Hello world
-</div>
-```
-
-### 各ファイルの説明
-
-```
-sample-next-project/src/app
-├── favicon.ico
-├── globals.css
-├── layout.tsx
-└── page.tsx
-```
-
-globals.css 全体のデザイン設定を行うファイル。
-
-layout.tsx　複数のページで共有されるUIコンポーネント。
-
-page.tsx ルートーページの固有なUIコンポーネント
-
- * 【参考リンク】 [https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts](https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts)
-
-### (補足)TailwindCSSについて
-
-メリット
-  ・ CSSのクラス名を考えなくてよい
-  ・ CSSの管理が楽になる
-
-デメリット
-  ・ CSSのコーディングを忘れてしまう
-  ・　クラス名が長くなり、可読性が下がってしまう
-
-* 【参考リンク】　【公式ドキュメント】　[https://tailwindcss.com/docs/installation](https://tailwindcss.com/docs/installation)
-* 【参考リンク】　[https://reffect.co.jp/html/tailwindcss-for-beginners](https://reffect.co.jp/html/tailwindcss-for-beginners)
-
-## 再度ローカルサーバーを起動してhello worldを確認する
-
-ターミナルから
-
-```
-% npm run dev
-```
-
-ブラウザーから、[http://localhost:3000/](http://localhost:3000/) を開いて確認する。
-
-Hello world　が表示されたら完了です。
 
 
 
