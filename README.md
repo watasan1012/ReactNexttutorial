@@ -421,8 +421,7 @@ Gitのユーザー名、メールアドレスを確認する
 user.name=
 user.email=
 
-
-表示されなかったらGithubと同じアカウントを登録する
+表示されなかったり、違ったらGithubと同じアカウントを登録する
 
 ユーザー名を登録する
 
@@ -440,7 +439,9 @@ user.email=
 % git config --global user.email <emailaddress>
 ```
 
+#### Githubにリモートリポジトリを作成する
 
+[https://github.com/new](https://github.com/new)
 
 
 
