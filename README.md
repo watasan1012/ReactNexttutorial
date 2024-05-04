@@ -188,7 +188,7 @@ Your Name → あだ名でもOK あだ名を入れて
 
 Continue ボタンをクリックします。
 
-Let's connect your Git provider 画面が表示されたら、
+### Let's connect your Git provider 画面が表示
 
 Continue with　GitHub　ボタンをクリックします。
 
