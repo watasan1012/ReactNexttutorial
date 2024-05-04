@@ -439,6 +439,8 @@ user.email=
 % git config --global user.email <emailaddress>
 ```
 
+- GitHubのSSH接続を設定する
+
 #### Githubにリモートリポジトリを作成する
 
 [https://github.com/new](https://github.com/new)
@@ -462,7 +464,7 @@ Create repository ボタンをクリックする
 ```
 
 ```sh
-% git remote add origin git@github.com:Githubアカウント名/sample-next-project.git
+% git remote add origin https://github.com/watasan3/sample-next-project.git
 ```
 
 ```sh
@@ -472,6 +474,18 @@ Create repository ボタンをクリックする
 ```sh
 % git push -u origin main
 ```
+
+Username for 'https://github.com':
+
+と表示されたら、Gitのアカウント名を登録します。
+
+Password for 'https://Githubアカウント名@github.com': 
+
+
+
+
+
+fatal　や　error　が表示されたら、HTTPS 接続か、SSH接続を疑う
 
 現在登録されているリモートのリポジトリを確認する
 
@@ -483,6 +497,10 @@ origin	git@github.com:Githubアカウント名/sample-next-project.git (fetch)
 origin	git@github.com:Githubアカウント名/sample-next-project.git (push)
 
 -> remoteがaddされていることを確認
+
+git remote set-url origin https://github.com/watasan3/sample-next-project.git
+
+
 
 
 ログインしていた場合は、 左上のアカウント名 projects をクリックします。
