@@ -168,7 +168,7 @@ v20.12.2
 
 [Vercelsignup](https://vercel.com/signup) をブラウザーから開く。
 
-タイトル　Create Your Vercel Account　が表示されたら、Pran Type を選択する
+タイトル　Create Your Vercel Account　が表示されたら、Plan Type を選択します。
 
 ```
 Plan Type
