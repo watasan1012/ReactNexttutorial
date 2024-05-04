@@ -73,9 +73,9 @@ Node.js
 ```sh
 % node -v
 ```
-v18.18.0
+v20.12.2
 
-Latest LTS Version: 20.11.1
+Latest LTS Version: v20.12.2
 
 ```sh
 % brew upgrade
