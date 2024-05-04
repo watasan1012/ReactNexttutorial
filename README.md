@@ -443,6 +443,24 @@ user.email=
 
 [https://github.com/new](https://github.com/new)
 
+Repository name → sample-next-project
+
+公開設定は Public Private どちらでも大丈夫です。
+
+Create repository ボタンをクリックする
+
+```sh
+% git remote add origin git@github.com:watasan3/sample-next-project.git
+```
+
+```sh
+% git branch -M main
+```
+
+```sh
+% git push -u origin main
+```
+
 
 
 
