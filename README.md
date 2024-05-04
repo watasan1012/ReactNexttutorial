@@ -11,6 +11,7 @@ uchiさんのReactNext.js入門に参加
 * デプロイするための環境構築する
 * Next.jsに触れる
 * プロフィールページの作成
+* デブロイをしてみよう!
 * Todoアプリ作成
 * (おまけ)今後に向けて
 
@@ -336,6 +337,7 @@ sample-next-project/src/app
 32行目から39行目を削除し、「Hello world」とします。
 
 ```
+      <div className="relative z-[-1] ">
         <Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
           src="/next.svg"
@@ -344,6 +346,7 @@ sample-next-project/src/app
           height={37}
           priority
         />
+      </div>
 ```
 
 以下に変更
@@ -389,7 +392,7 @@ page.tsx ルートーページの固有なUIコンポーネント
 
 ターミナルから
 
-```
+```sh
 % npm run dev
 ```
 
@@ -397,6 +400,7 @@ page.tsx ルートーページの固有なUIコンポーネント
 
 Hello world　が表示されたら完了です。
 
+## デブロイをしてみよう!
 
 
 
