@@ -185,7 +185,7 @@ Plan Type
 
 Plan Type　から Hobby を選択します。
 
-Your Name → あだ名でもOK あだ名を入れて
+Your Name → あだ名でもOK あだ名を入力します。
 
 Continue ボタンをクリックします。
 
@@ -518,7 +518,6 @@ Host github.com.sub
   IdentitiesOnly yes
 ```
 
-
 #### Githubにリモートリポジトリを作成する
 
 [https://github.com/new](https://github.com/new)
@@ -592,19 +591,18 @@ git@github.com:Githubアカウント名/sample-next-project.git
 git remote set-url origin https://github.com/Githubアカウント名/sample-next-project.git
 ```
 
-
+### Vercel にログイン
 
 ログインしていた場合は、 左上のアカウント名 projects をクリックします。
 
-Deploy your first project　画面が表示されます。
-
+### Deploy your first project　画面
 Start with one of our templates or create something new.
 
 私たちのテンプレートのいずれかを使用して開始するか、新しい何かを作成します。
 
 リストから、Next.js App and a Serverless Function API 横の Deploy をクリックします。
 
-Create Git Repository　 画面
+### Create Git Repository　 画面
 
 To ensure you can easily update your project after deploying it, a Git repository must be created. Every push to that Git repository will be deployed automatically.
 
@@ -612,15 +610,19 @@ To ensure you can easily update your project after deploying it, a Git repositor
 
 Git Scope の Select Git Scope というセレクトボックス　を選択して Select Git Scope から　Add GitHub Account　を選択します。
 
-Install Vercel　画面が表示されるので
+###  Install Vercel　画面が表示されるので
 
 Where do you want to install Vercel?
 
 インストール先のGitHubアカウントを選択します。
 
-Install Vercel 画面が表示されるので
+### Install Vercel 画面が表示されるので
 
-Install on your personal account 
+Install on your personal account Github　アカウントロゴ
+
+for these repositories:
+
+
 
 インストール先　アカウント名 を確認して
 
@@ -655,7 +657,7 @@ Repository Name に、ローカルリポジトリ名 sample-next-project を入�
 - sample-next-project　プロジェクト　をVercelで選択し、Deployする
 
 
-
+Vercel
 
 
 
