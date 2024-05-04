@@ -408,7 +408,37 @@ Hello world　が表示されたら完了です。
 2. Vercelにログインする
 3. Vercelからプロジェクトを選択してDeployする
 
+#### sample-next-project　を Githubと紐付ける
 
+- 現在のGitの状態を確認しましょう
+
+Gitのユーザー名、メールアドレスを確認する
+
+```sh
+% git config --global --list
+```
+
+user.name=
+user.email=
+
+
+表示されなかったらGithubと同じアカウントを登録する
+
+ユーザー名を登録する
+
+<username> はここで変更してください
+
+```
+% git config --global user.name <username>
+```
+
+メールアドレスを登録する
+
+<emailaddress>　はemailを登録してください
+
+```
+% git config --global user.email <emailaddress>
+```
 
 
 
@@ -507,35 +537,8 @@ Nuxt.jsでは、自動でGitのローカルリポジトリを作成していま�
 % echo '.DS_Store' >> .gitignore
 ```
 
-- 現在のGitの状態を確認しましょう
-
-Gitのユーザー名、メールアドレスを確認する
-
-```sh
-% git config --global --list
-```
-
-user.name=
-user.email=
 
 
-表示されなかったらGithubと同じアカウントを登録する
-
-ユーザー名を登録する
-
-<username> はここで変更してください
-
-```
-% git config --global user.name <username>
-```
-
-メールアドレスを登録する
-
-<emailaddress>　はemailを登録してください
-
-```
-% git config --global user.email <emailaddress>
-```
 
 git branch コマンドで現在のブランチを確認します。
 
