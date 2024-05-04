@@ -482,7 +482,7 @@ Create repository ボタンをクリックする
 origin	git@github.com:Githubアカウント名/sample-next-project.git (fetch)
 origin	git@github.com:Githubアカウント名/sample-next-project.git (push)
 
-
+-> remoteがaddされていることを確認
 
 
 ログインしていた場合は、 左上のアカウント名 projects をクリックします。
