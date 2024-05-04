@@ -450,7 +450,19 @@ Repository name → sample-next-project
 Create repository ボタンをクリックする
 
 ```sh
-% git remote add origin git@github.com:watasan3/sample-next-project.git
+% git status
+```
+
+```sh
+% git add .
+```
+
+```sh
+% git commit -m "Hello world"
+```
+
+```sh
+% git remote add origin git@github.com:Githubアカウント名/sample-next-project.git
 ```
 
 ```sh
@@ -461,7 +473,14 @@ Create repository ボタンをクリックする
 % git push -u origin main
 ```
 
+現在登録されているリモートのリポジトリを確認する
 
+```
+% git remote -v
+```
+
+origin	git@github.com:Githubアカウント名/sample-next-project.git (fetch)
+origin	git@github.com:Githubアカウント名/sample-next-project.git (push)
 
 
 
