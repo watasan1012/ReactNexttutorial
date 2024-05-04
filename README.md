@@ -182,7 +182,7 @@ Plan Type
      $20  
 ```
 
-Plan Type　から Hobby を選択する
+Plan Type　から Hobby を選択します。
 
 Your Name → あだ名でもOK あだ名を入れて
 
