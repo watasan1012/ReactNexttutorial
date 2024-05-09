@@ -165,7 +165,9 @@ v20.12.2
 
 [参考サイト](https://dev-harry-next.com/infrastructure/vercel-detail)
 
-### Vercelのアカウントを作成する
+### Vercel でアカウントを作成
+
+[https://vercel.com/signup](https://vercel.com/signup)
 
 [Vercelsignup](https://vercel.com/signup) をブラウザーから開く。
 
