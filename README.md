@@ -76,7 +76,7 @@ Node.js
 ```
 v20.12.2
 
-Latest LTS Version: v20.12.2
+Latest LTS Version: v20.13.1
 
 ```sh
 % brew upgrade
@@ -87,6 +87,8 @@ Latest LTS Version: v20.12.2
 ```sh
 % brew doctor
 ```
+
+Your system is ready to brew. と表示されたら完了です。
 
 homebrewでインストールしたパッケージを確認する
 
@@ -104,7 +106,7 @@ nodenvでnode.jsをインストールしたことがわかります。
 Node.jsをインストールする
 
 ```sh
-% nodenv install 20.12.0
+% nodenv install 20.13.1
 ```
 
 パッケージの更新
@@ -122,7 +124,7 @@ Node.jsをインストールする
 利用するnode.jsのバージョンを指定する
 
 ```sh
-% nodenv global 20.12.0
+% nodenv global 20.13.1
 ```
 
 ダウンロードしたNode.jsのバージョンを確認する
@@ -134,9 +136,9 @@ Node.jsをインストールする
 不要なnode.jsのバージョンを削除する
 
 ```sh
-% nodenv uninstall 20.11.1
+% nodenv uninstall 20.12.2
 ```
-nodenv: remove /Users/hirotaka/.nodenv/versions/18.18.0? [yN] 
+nodenv: remove /Users/hirotaka/.nodenv/versions/20.12.2? [yN] 
 
 yキーエンター
 
@@ -145,17 +147,17 @@ yキーエンター
 ```sh
 % node -v
 ```
-v20.12.2
+v20.13.1
 
 ```sh
 % npm -v
 ```
-10.5.0
+10.5.2
 
 ```sh
 % npx -v
 ```
-10.5.0
+10.5.2
 
 ## デプロイするための環境構築する
 
