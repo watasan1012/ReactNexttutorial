@@ -231,6 +231,14 @@ Vercelのアカウントが作成されました。
 
 [https://vercel.com/login](https://vercel.com/login)
 
+Log in to Vercel 画面より
+
+Continue with Github をクリックします。
+
+
+
+
+
 ## Next.jsに触れる
 
 ### プロプロジェクトの作成 1
