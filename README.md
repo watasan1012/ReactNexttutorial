@@ -235,10 +235,9 @@ Log in to Vercel 画面より
 
 Continue with Github をクリックします。
 
-## Next.jsに触れる
+## Next.js　プロジェクトの作成
 
-### プロプロジェクトの作成
-
+Next.jsのプロプロジェクトを作成し、
 
 
 
