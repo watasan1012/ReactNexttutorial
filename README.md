@@ -163,6 +163,12 @@ v20.14.0
 
 10.7.0
 
+## GitHub　の　アカウントを作成する
+
+[GitHubのサインアップ画面](https://github.com/signup)
+
+Enter your email*　入力欄に Emailを入力して　Continue　ボタンをクリックする。
+
 ## Vercel でデプロイする
 
 フロントエンド開発のプラットフォームで、デプロイ環境を提供する。
