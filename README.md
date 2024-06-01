@@ -55,6 +55,13 @@ Next.jsアプリを作成するために必要なツールや環境について�
 
 ### Windows
 
+Tools:
+
+Windows Terminal: コマンドラインツールやシェルをインターフェースで管理できるアプリケーションです。
+
+VSCode(Visual Studio Code): コードエディタです。
+
+Node.js:
 
 ### macOS
 
