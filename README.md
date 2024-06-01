@@ -122,7 +122,7 @@ volta list all
 
 Tools:
 
-Windows Terminal: コマンドラインツールやシェルをインターフェースで管理できるアプリケーションです。
+Terminal: コマンドラインツールやシェルをインターフェースで管理できるアプリケーションです。macOSでは既存の状態でターミナルがインストールされています。
 
 VSCode(Visual Studio Code): コードエディタです。
 
