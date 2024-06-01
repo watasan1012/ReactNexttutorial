@@ -171,7 +171,7 @@ v20.14.0
 
 ### Vercel でアカウントを作成
 
-Vercel でアカウントがあるならVercel アカウント でログインする
+Vercel のアカウントがあるのなら、ログインする。以下アカウントを作成する場合。
 
 [https://vercel.com/signup](https://vercel.com/signup)
 
@@ -230,6 +230,10 @@ Enter it below to complete your sign up.
 入力した電話番号に4桁の数字がSMSで届くので入力する。
 
 Vercelのアカウントが作成されました。
+
+## Vercel　にログインする
+
+https://vercel.com/login
 
 左側上部のVercel　ロゴをクリックするかVercelにログインする
 
