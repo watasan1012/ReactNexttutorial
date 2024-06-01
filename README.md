@@ -64,7 +64,53 @@ VSCode(Visual Studio Code): コードエディタです。
 アプリケーション:
 
 Volta: Node.jsバージョン管理ツールでNode.jsをインストールします。
-[公式サイト](https://docs.volta.sh/guide/getting-started)からインストーラをダウンロードし、それを実行することでインストールを行うことができます。
+[公式サイト](https://docs.volta.sh/guide/getting-started)から「download and run the Windows installer」をクリックしてインストーラをダウンロードします。
+
+Windowsの開発者モードを有効にしておく。
+検索ボックスに「開発者」と入力し、「開発者向け設定」を起動する。
+
+開発者モードを「オン」にして閉じる
+
+インストーラーを起動してVoltaをインストールする。
+
+voltaのバージョンを確認する。
+
+```
+volta -v
+```
+
+Node.js: 
+最新バージョン（LTS）のインストール
+
+```sh
+volta install node
+```
+
+Node.jsのバージョン確認
+
+```
+$ node -v
+```
+
+npmのバージョンも確認しておく
+
+```
+npm -v
+```
+
+npm がインストールされてなかったら
+
+```
+volta install npm
+```
+
+volta でインストールしたバージョンを確認
+
+```
+volta list all
+```
+
+
 
 ### macOS
 
