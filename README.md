@@ -53,7 +53,72 @@ Next.jsを使った開発では、これらの言語と技術を組み合わせ�
 
 Next.jsアプリを作成するために必要なツールや環境について、以下のようにまとめることができます。
 
-### Windows
+### Node.jsをWindowsにインストールする手順
+
+Tools:
+
+* Windows Terminal: コマンドラインツールやシェルをインターフェースで管理できるアプリケーションです。
+* VSCode(Visual Studio Code): コードエディタです。
+
+アプリケーション:
+* Volta: Node.jsバージョン管理ツールでNode.jsをインストールします。
+[公式サイト](https://docs.volta.sh/guide/getting-started)から「download and run the Windows installer」をクリックしてインストーラをダウンロードします。
+
+### 手順:
+1. Windowsの開発者モードを有効にします
+  * 検索ボックスに「開発者」と入力し、「開発者向け設定」を起動します。
+  * 開発者モードを「オン」にして閉じます。
+
+2. Voltaをインストールします
+  * ダウンロードしたインストーラーを起動し、画面の指示に従ってVoltaをインストールします。
+
+3. voltaのバージョンを確認します
+Windows Terminalを開き、以下のコマンドを実行します。
+
+```sh
+volta -v
+```
+
+4. Node.jsのインストール
+  *  最新バージョン（LTS）をインストールします。
+
+```sh
+volta install node
+```
+
+5. Node.jsのバージョン確認します
+
+```sh
+$ node -v
+```
+
+6. npmのバージョンを確認します
+
+  *  Node.jsと共にnpmもインストールされているか確認します。
+
+```sh
+npm -v
+```
+
+7. npmがインストールされていなかった場合
+
+以下のコマンドでnpmをインストールします。
+
+```sh
+volta install npm
+```
+
+8. volta でインストールしたバージョンを確認
+
+  *  以下のコマンドでVoltaで管理されている全てのバージョンを確認します。
+
+```sh
+volta list all
+```
+
+以上がNode.jsをWindowsにインストールする手順です。
+
+### macOS
 
 Tools:
 
@@ -61,64 +126,9 @@ Windows Terminal: コマンドラインツールやシェルをインターフ�
 
 VSCode(Visual Studio Code): コードエディタです。
 
-アプリケーション:
-
-Volta: Node.jsバージョン管理ツールでNode.jsをインストールします。
-[公式サイト](https://docs.volta.sh/guide/getting-started)から「download and run the Windows installer」をクリックしてインストーラをダウンロードします。
-
-Windowsの開発者モードを有効にしておく。
-検索ボックスに「開発者」と入力し、「開発者向け設定」を起動する。
-
-開発者モードを「オン」にして閉じる
-
-インストーラーを起動してVoltaをインストールする。
-
-voltaのバージョンを確認する。
-
-```
-volta -v
-```
-
-Node.js: 
-最新バージョン（LTS）のインストール
-
-```sh
-volta install node
-```
-
-Node.jsのバージョン確認
-
-```
-$ node -v
-```
-
-npmのバージョンも確認しておく
-
-```
-npm -v
-```
-
-npm がインストールされてなかったら
-
-```
-volta install npm
-```
-
-volta でインストールしたバージョンを確認
-
-```
-volta list all
-```
-
-
-
-### macOS
-
 ### Node.jsのインストール
 
 
-1. Windows
-   [参考リンク React.jsの環境構築・windows編](https://zenn.dev/kagetugu/articles/eec07c364f9153)
 2. macOS
   [参考リンク nodebrewを使ってReact環境構築](https://zenn.dev/shohei_1010/articles/f1ef4454202da7)
 
