@@ -61,7 +61,10 @@ Windows Terminal: コマンドラインツールやシェルをインターフ�
 
 VSCode(Visual Studio Code): コードエディタです。
 
-Node.js:
+アプリケーション:
+
+Volta: Node.jsバージョン管理ツールでNode.jsをインストールします。
+[公式サイト](https://docs.volta.sh/guide/getting-started)からインストーラをダウンロードし、それを実行することでインストールを行うことができます。
 
 ### macOS
 
