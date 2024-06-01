@@ -173,11 +173,13 @@ v20.14.0
 
 Vercel のアカウントがあるのなら、ログインする。以下アカウントを作成する場合。
 
-[https://vercel.com/signup](https://vercel.com/signup)
+Vercel アカウントを作成する画面が表示する
 
-[Vercelsignup](https://vercel.com/signup) をブラウザーから開く。
+[Create Your Vercel Account]([url](https://vercel.com/signup)をブラウザーから開く。
 
-タイトル　Create Your Vercel Account　が表示されたら、Plan Type を選択します。
+![Vercel_SignUp_1](画像のURL "画像タイトル")
+
+### Plan Type を選択します
 
 ```
 Plan Type
@@ -193,15 +195,17 @@ Plan Type
 
 Plan Type　から Hobby を選択します。
 
+### Your Name を入力します
+
 Your Name → あだ名でもOK あだ名を入力します。
 
 Continue ボタンをクリックします。
 
-・ Let's connect your Git provider 画面を表示
+### Let's connect your Git provider 画面を表示する
 
 Continue with　GitHub　ボタンをクリックします。
 
-・ Authorize Vercel 画面を表示
+### Authorize Vercel 画面を表示します
 
 Vercel by Vercel would like permission to:
 GitHubへのアクセス許可が求められるので、問題なければ 
