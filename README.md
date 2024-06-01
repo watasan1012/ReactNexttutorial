@@ -180,7 +180,6 @@ Continue ボタンをクリックします。
 
 Email preferences GitHubに関するメールを受信する場合はチェックを入れます。
 
-
 Welcome to GitHub!
 Let’s begin the adventure
 Verify your account
@@ -301,27 +300,21 @@ Unlock advanced features with GitHub Team or continue with a free plan for the b
 
 Continue for free　ボタンをクリックします。
 
-
-
-
 ## Vercel でデプロイする
 
 フロントエンド開発のプラットフォームで、デプロイ環境を提供する。
 
 [参考サイト](https://dev-harry-next.com/infrastructure/vercel-detail)
 
-### Vercel でアカウントを作成
+## Vercel　の　アカウントを作成する
 
-Vercel のアカウントがあるのなら、ログインする。以下アカウントを作成する場合。
-
-Vercel アカウントを作成する画面が表示する
+Vercelアカウントを所持している場合は、[Vercel](https://vercel.com/login)のサインイン画面よりログインしてください。
 
 [Create Your Vercel Account]([url](https://vercel.com/signup)をブラウザーから開く。
 
-![Vercel_SignUp_1](画像のURL "画像タイトル")
-
 ### Create Your Vercel Account 画面が表示されたら Plan Type を選択します
 
+![Vercel_SignUp_1](画像のURL "画像タイトル")
 
 ```
 Plan Type
@@ -345,18 +338,25 @@ Your Name
 
 Continue ボタンをクリックします。
 
-### Let's connect your Git provider 画面を表示します。
+### Let's connect your Git provider 画面を表示します
 
-
+![Vercel_SignUp_2](画像のURL "画像タイトル")
 
 Continue with　GitHub　ボタンをクリックします。
 
-### Authorize Vercel 画面を表示します
+### Vercel by Vercel would like permission to: 画面
 
-Vercel by Vercel would like permission to:
-GitHubへのアクセス許可が求められるので、問題なければ 
+![Vercel_SignUp_3](画像のURL "画像タイトル")
 
-緑色の　Authorize Vercel　ボタンをクリックします。
+Vercel would like permission to: GitHubアカウント
+
+GitHubアカウントにVercelは、GitHubアカウントに接続の許可を求めています。
+
+Authorize Vercel ボタンをクリックします。
+
+Vercel　アカウントが作成されました。
+
+### 電話番号認証が表示される場合がある
 
 Authenticating - Vercel 
 
