@@ -33,7 +33,7 @@ Next.jsは、Vercel社が開発したReactフレームワークで、以下の�
 
 7. サーバーサイドコンポーネントのデータフェッチ機能により、サーバー側でのデータ取得が簡単に行えます。
 
-8: スタイリング：Tailwind CSS、CSS-in-JS等のスタイリング手法をサポートし、柔軟なデザイン実装が可能です。
+8. スタイリング：Tailwind CSS、CSS-in-JS等のスタイリング手法をサポートし、柔軟なデザイン実装が可能です。
 
 【参考】
 [https://nextjs.org/docs#how-to-use-these-docs](https://nextjs.org/docs#how-to-use-these-docs)
