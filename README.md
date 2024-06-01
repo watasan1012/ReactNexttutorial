@@ -74,9 +74,9 @@ Node.js
 ```sh
 % node -v
 ```
-v20.12.2
+v20.13.1
 
-Latest LTS Version: v20.13.1
+Latest LTS Version: v20.14.0
 
 ```sh
 % brew upgrade
@@ -106,7 +106,7 @@ nodenvでnode.jsをインストールしたことがわかります。
 Node.jsをインストールする
 
 ```sh
-% nodenv install 20.13.1
+% nodenv install 20.14.0
 ```
 
 パッケージの更新
@@ -124,7 +124,7 @@ Node.jsをインストールする
 利用するnode.jsのバージョンを指定する
 
 ```sh
-% nodenv global 20.13.1
+% nodenv global 20.14.0
 ```
 
 ダウンロードしたNode.jsのバージョンを確認する
@@ -132,6 +132,11 @@ Node.jsをインストールする
 ```sh
 % nodenv versions
 ```
+
+  20.13.1
+* 20.14.0 (set by /Users/ユーザー名/.nodenv/version)
+
+設定した方に * が設定した方になる。
 
 不要なnode.jsのバージョンを削除する
 
