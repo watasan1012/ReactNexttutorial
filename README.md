@@ -171,6 +171,8 @@ v20.14.0
 
 ### Vercel でアカウントを作成
 
+Vercel でアカウントがあるならVercel アカウント でログインする
+
 [https://vercel.com/signup](https://vercel.com/signup)
 
 [Vercelsignup](https://vercel.com/signup) をブラウザーから開く。
