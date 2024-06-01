@@ -68,14 +68,16 @@ Next.jsアプリを作成するために必要なツールや環境について�
 5. Supabase
   * バックエンド側の環境を提供することができるデータベースであり、Bass(Backend as a Service)です。
 
-## 開発環境を確認する
+## 3. 開発環境を確認する
 
-Node.js
+Node.jsがインストールされているか確認する
 
 ```sh
 % node -v
 ```
 v20.13.1
+
+Node.jsのバージョンが古い場合はupdateする
 
 Latest LTS Version: v20.14.0
 
@@ -162,6 +164,8 @@ v20.14.0
 ```
 
 10.7.0
+
+Node.jsがインストールされてない場合は、[nodejs.org](https://nodejs.org/en/) を確認してインストールします。
 
 ## GitHub　の　アカウントを作成する
 
