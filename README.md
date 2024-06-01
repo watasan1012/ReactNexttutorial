@@ -187,7 +187,7 @@ Verify your account
 表示されます。
 
 アカウントの保護
-質問に回答して あなたがロボットではな いことを証明してください。
+質問に回答して あなたがロボットではないことを証明してください。
 
 検証するボタンをクリックします。
 
@@ -382,8 +382,6 @@ Enter it below to complete your sign up.
 Vercelのアカウントが作成されました。
 
 ## Vercel　にログインする
-
-https://vercel.com/login
 
 左側上部のVercel　ロゴをクリックするかVercelにログインする
 
