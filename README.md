@@ -58,14 +58,17 @@ Next.jsアプリを作成するために必要なツールや環境について�
    [参考リンク React.jsの環境構築・windows編](https://zenn.dev/kagetugu/articles/eec07c364f9153)
 2. macOS
   [参考リンク nodebrewを使ってReact環境構築](https://zenn.dev/shohei_1010/articles/f1ef4454202da7)
-3. GitHub
+
+### GitHub
   * [参考リンク Githubサインアップ](https://github.com/signup)
   * 事前にGitHubアカウントを作成してください。
-4. vercel
+
+###  vercel
   * フロントエンドの環境を提供するホスティングのPaaS(Platform as a Service)です。
   * Githubなどのリポジトリと連携させるだけで、簡単にデプロイできます。
   * [参考リンク-vercel](https://vercel.com/)
-5. Supabase
+
+### Supabase
   * バックエンド側の環境を提供することができるデータベースであり、Bass(Backend as a Service)です。
 
 ## 3. 開発環境を確認する
