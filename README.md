@@ -179,7 +179,8 @@ Vercel アカウントを作成する画面が表示する
 
 ![Vercel_SignUp_1](画像のURL "画像タイトル")
 
-### Plan Type を選択します
+### Create Your Vercel Account 画面が表示されたら Plan Type を選択します
+
 
 ```
 Plan Type
@@ -193,15 +194,19 @@ Plan Type
      $20  
 ```
 
-Plan Type　から Hobby を選択します。
+Plan Type から Hobby を選択します。
 
-### Your Name を入力します
+Your Name を入力します。
 
-Your Name → あだ名でもOK あだ名を入力します。
+Your Name  
+あだ名でも大丈夫です。
+英数字を入力します。
 
 Continue ボタンをクリックします。
 
-### Let's connect your Git provider 画面を表示する
+### Let's connect your Git provider 画面を表示します。
+
+
 
 Continue with　GitHub　ボタンをクリックします。
 
