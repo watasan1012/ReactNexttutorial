@@ -391,40 +391,31 @@ Log in to Vercel 画面より
 
 Continue with Github をクリックします。
 
-## Next.js　プロジェクトの作成
+## Next.jsプロジェクトを作成する
 
-Next.jsのプロプロジェクトを作成し、
-
-
-
+Vercelのテンプレートを使用してプロジェクトを作成し公開する方法と、localにNext.jsのプロジェクトを作成してGitHubにアップロードしてVercelにデプロイします。
 
 - ターミナルを起動し、以下のコマンドを実行する
+
+対話的に新しいプロジェクトを作成できます。
 
 ```sh
 % npx create-next-app@latest
 ```
 
 ```result
-Need to install the following packages:
-create-next-app@14.2.3
-Ok to proceed? (y) 
-```
-
-y キー　エンターキーの順にクリック
-
-```result
 ? What is your project named? › my-app
 ```
 
-my-app の部分に、作成するプロジェクトの名前を入力する
+my-app の部分に、作成するプロジェクトの名前を入力します。
 
 sample-next-project
-
-### ? TypeScriptを使いたいですか？いいえ / はい
 
 ```sh
 ? Would you like to use TypeScript? › No / Yes
 ```
+
+? TypeScriptを使いたいですか？いいえ / はい
 
 矢印キーでカーソルを変更できます。アンダースコアがあるほうが選択状態です。
 enterキーで確定です。
@@ -435,11 +426,15 @@ Yes
 ? Would you like to use ESLint? › No / Yes
 ```
 
+? ESLintを使用しますか？いいえ / はい
+
 Yes
 
 ```
 ? Would you like to use Tailwind CSS? › No / Yes
 ```
+
+? Tailwind CSSを使用しますか？いいえ / はい
 
 Yes
 
@@ -447,11 +442,15 @@ Yes
 ? Would you like to use `src/` directory? › No / Yes
 ```
 
+? このプロジェクトでsrc/`ディレクトリを使用しますか？いいえ / はい
+
 Yes
 
 ```
 ? Would you like to use App Router? (recommended) › No / Yes
 ```
+
+? App Routerを使用しますか？ (推奨）いいえ / はい
 
 Yes
 
@@ -459,15 +458,19 @@ Yes
 ? Would you like to customize the default import alias (@/*)? › No / Yes
 ```
 
+? デフォルトのインポートエイリアス（@/*）をカスタマイズしますか？いいえ / はい
+
 No
 
-プロジェクトの作成が起動する
+## プロジェクトの作成が起動する
 
 ```
 Success! Created sample-next-project at /Users/ユーザーディレクトリ/作業ディレクトリ/sample-next-project
 ```
 
 が表示されたら完成です。
+
+## 動作確認
 
 作業ディレクトリに移動します。
 
