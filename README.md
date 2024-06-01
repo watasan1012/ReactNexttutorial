@@ -137,7 +137,9 @@ Node.jsをインストールする
 ```sh
 % nodenv uninstall 20.13.1
 ```
-nodenv: remove /Users/hirotaka/.nodenv/versions/20.12.2? [yN] 
+
+nodenv: remove /Users/ユーザー名/.nodenv/versions/20.13.1? [yN] y
+
 
 yキーエンター
 
