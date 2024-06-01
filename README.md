@@ -20,39 +20,36 @@ uchiさんのReactNext.js入門に参加
 Next.jsは、Vercel社が開発したReactフレームワークで、以下の特徴を持ちます。
 
 1. Reactベース: Next.jsはReactをベースにしており、Reactコンポーネントを使用してUIを構築できます。
-
 2. サーバーサイドレンダリング(SSR):初期レンダリングをサーバーサイドで行うことができ、SEOやパフォーマンスの向上に役立ちます。
-
 3. 静的サイト生成(SSG): ビルド時に静的なHTMLファイルを生成し、高速なページ読み込みを実現します。
-
 4. APIルート: 内臓のAPIルートを使用して、簡単にバックエンド機能を実装できます。
-
 5. 画像最適化: ビルドインの画像最適化機能を提供し、パフォーマンスの向上に貢献します。
-
 6. ルーティング: フォルダ構造に基づいた自動的なページのルーティング機能を提供します。
-
 7. サーバーサイドコンポーネントのデータフェッチ機能により、サーバー側でのデータ取得が簡単に行えます。
-
 8. スタイリング：Tailwind CSS、CSS-in-JS等のスタイリング手法をサポートし、柔軟なデザイン実装が可能です。
 
 【参考】
 [https://nextjs.org/docs#how-to-use-these-docs](https://nextjs.org/docs#how-to-use-these-docs)
 
-### 開発で使用する言語
+## 1. Next.jsアプリ開発で使用する言語
 
-* HTML
- * HTML(HyperText Markup Language、ハイパーテキスト・マークアップランゲージ)は、ウェブサイトのコンテンツの構造を作るために使うコード。ページ内の表示を作る。
- * 【参考リンク】　[https://creatorquest.jp/lessons/html/](https://creatorquest.jp/lessons/html/)
-* CSS
- * CSS (Casgading Style Sheets)は、ウェブページのスタイルを設定するコード。ページ内のデザインを作る。
- * 【参考リンク】 [https://creatorquest.jp/lessons/css/css-intro/](https://creatorquest.jp/lessons/css/css-intro/)
- * 【参考リンク】 [https://www.webcreatorbox.com/tech/css-flexbox-cheat-sheet](https://www.webcreatorbox.com/tech/css-flexbox-cheat-sheet)
-* JavaScript
-  * Typescript TypeScript は、JavaScript に基づいて構築された厳密に型指定されたプログラミング言語。ページ内の動作、処理を作る。
-  * 【参考リンク】　[https://www.typescriptlang.org/](https://www.typescriptlang.org/)
-  * 【参考リンク】　[https://typescriptbook.jp/reference](https://typescriptbook.jp/reference)
+1. HTML
+   * HTML(HyperText Markup Language、ハイパーテキスト・マークアップランゲージ)は、ウェブサイトのコンテンツの構造を作るために使うコードであり、ページ内の表示を作ります。
+   * 【参考リンク htmlの基本】　[https://creatorquest.jp/lessons/html/](https://creatorquest.jp/lessons/html/)
+2. CSS
+   * CSS (Casgading Style Sheets)は、ウェブページのスタイルを設定するコードであり、ページ内のデザインを作ります。
+   * 【参考リンク CSSの基本】 [https://creatorquest.jp/lessons/css/css-intro/](https://creatorquest.jp/lessons/css/css-intro/)
+   * 【参考リンク CSS Flexbox チートシート】 [https://www.webcreatorbox.com/tech/css-flexbox-cheat-sheet](https://www.webcreatorbox.com/tech/css-flexbox-cheat-sheet)
+3. JavaScript
+   * JavaScriptは、ウェブページの動作や処理を作るためのプログラミング言語です。
+4. Typescript
+   * Typescript は、JavaScript に基づいて構築された厳密に型指定されたプログラミング言語であり、コードの信頼性と保守性を向上させます。
+  * 【参考リンク TypeScript公式サイト】 [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
+  * 【参考リンク TypeScriptのリファレンス】 [https://typescriptbook.jp/reference](https://typescriptbook.jp/reference)
+
+Next.jsを使った開発では、これらの言語と技術を組み合わせて、効率的にWebアプリケーションを構築することができます。
  
-## 開発環境について
+## 2. Next.jsアプリ開発の環境について
 
 パソコンに環境を構築する
 
