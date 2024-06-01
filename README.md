@@ -53,7 +53,14 @@ Next.jsを使った開発では、これらの言語と技術を組み合わせ�
 
 Next.jsアプリを作成するために必要なツールや環境について、以下のようにまとめることができます。
 
+### Windows
+
+
+### macOS
+
 ### Node.jsのインストール
+
+
 1. Windows
    [参考リンク React.jsの環境構築・windows編](https://zenn.dev/kagetugu/articles/eec07c364f9153)
 2. macOS
