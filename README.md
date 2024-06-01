@@ -127,12 +127,6 @@ Node.jsをインストールする
 % nodenv global 20.14.0
 ```
 
-ダウンロードしたNode.jsのバージョンを確認する
-
-```sh
-% nodenv versions
-```
-
   20.13.1
 * 20.14.0 (set by /Users/ユーザー名/.nodenv/version)
 
@@ -141,7 +135,7 @@ Node.jsをインストールする
 不要なnode.jsのバージョンを削除する
 
 ```sh
-% nodenv uninstall 20.12.2
+% nodenv uninstall 20.13.1
 ```
 nodenv: remove /Users/hirotaka/.nodenv/versions/20.12.2? [yN] 
 
@@ -152,17 +146,20 @@ yキーエンター
 ```sh
 % node -v
 ```
-v20.13.1
+
+v20.14.0
 
 ```sh
 % npm -v
 ```
-10.5.2
+
+10.7.0
 
 ```sh
 % npx -v
 ```
-10.5.2
+
+10.7.0
 
 ## デプロイするための環境構築する
 
