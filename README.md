@@ -168,6 +168,69 @@ v20.14.0
 
 Enter your email*　入力欄に Emailを入力して　Continue　ボタンをクリックする。
 
+Create a password* GitHubにログインするためのパスワードを入力します。
+
+Continue ボタンをクリックします。
+
+Enter a username* GitHubのアカウント名を入れます。　あだ名でOKです。
+
+Continue ボタンをクリックします。
+
+Email preferences GitHubに関するメールを受信する場合はチェックを入れます。
+
+
+Welcome to GitHub!
+Let’s begin the adventure
+Verify your account
+
+表示されます。
+
+アカウントの保護
+質問に回答して あなたがロボットではな いことを証明してください。
+
+検証するボタンをクリックします。
+
+指示に従い設定します。
+
+送信ボタンをクリックします。
+
+You're almost done!
+
+We sent a launch code to 登録メールアドレス
+
+Enter code*
+
+送られたメールアドレスに書いてあるコードを入力します。
+
+enter キーを入力します。
+
+ログイン画面が表示されるのでログインします。
+
+This will help us guide you to the tools that are best suited for your projects.
+
+How many team members will be working with you?
+
+これにより、お客様のプロジェクトに最適なツールをご案内することができます。
+
+チームメンバーは何人ですか？
+
+Just me
+
+私だけ
+
+Are you a student or teacher?
+
+あなたは学生ですか、それとも教師ですか？
+
+N/A
+
+該当なしを選択する
+
+Continue　ボタンをクリックします。
+
+
+
+
 ## Vercel でデプロイする
 
 フロントエンド開発のプラットフォームで、デプロイ環境を提供する。
