@@ -140,7 +140,6 @@ Node.jsをインストールする
 
 nodenv: remove /Users/ユーザー名/.nodenv/versions/20.13.1? [yN] y
 
-
 yキーエンター
 
 ## 環境構築が終わったか確認する
