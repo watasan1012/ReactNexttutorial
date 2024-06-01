@@ -118,7 +118,7 @@ volta list all
 
 以上がNode.jsをWindowsにインストールする手順です。
 
-### macOS
+### Node.jsをmacOSにインストールする手順
 
 Tools:
 
