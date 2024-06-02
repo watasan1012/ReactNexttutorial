@@ -132,29 +132,27 @@ VSCode(Visual Studio Code): コードエディタです。
 
 アプリケーション:
 
-### Node.jsのインストール
-
-* installs nvm (Node Version Manager)
+* Volta: Node.jsバージョン管理ツールでNode.jsをインストールします。
 
 ### 手順:
 
+1. Voltaをインストールする
+
 ```sh
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+curl https://get.volta.sh | bash
 ```
 
-# download and install Node.js
-nvm install 20
+2. Node.jsのインストール
 
-# verifies the right Node.js version is in the environment
-node -v # should print `v20.14.0`
+実際にNode.jsのバージョン管理を行う方法について詳しく見ていきましょう。
 
-# verifies the right NPM version is in the environment
-npm -v # should print `10.7.0`
+3. Node.jsのバージョンを最新のLTS（長期サポート版）をインストール
+
+```sh
+volta install node
+```
 
 
-
-2. macOS
-  [参考リンク nodebrewを使ってReact環境構築](https://zenn.dev/shohei_1010/articles/f1ef4454202da7)
 
 ### GitHub
   * [参考リンク Githubサインアップ](https://github.com/signup)
