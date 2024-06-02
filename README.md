@@ -152,6 +152,11 @@ curl https://get.volta.sh | bash
 volta install node
 ```
 
+4. Node.jsが入ってるかを確認
+
+```sh
+node -v
+```
 
 
 ### GitHub
