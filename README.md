@@ -172,146 +172,53 @@ npm -v
 
 これでmacOSにNode.jsをインストールする手順は完了です。
 
-## GitHub　の　アカウントを作成する
+## GitHub　のアカウントを作成する
 
-  * [参考リンク Githubサインアップ](https://github.com/signup)
-  * 事前にGitHubアカウントを作成してください。
+Vercelは、GitHubアカウントが必要です。
 
+* すでにGithubアカウントを持っている場合
 GitHubアカウントを所持している場合は、[GitHubのサインイン画面](https://github.com/login)よりログインしてください。
 
-[GitHubのサインアップ画面](https://github.com/signup)
+* 新規Githubアカウントを作成する
+  
+  1. [Githubサインアップ画面](https://github.com/signup)を開きます。
+ 
+  2. Enter your email*
+     入力欄に メールアドレスを入力して`Continue`ボタンをクリックする。
 
-Enter your email*　入力欄に Emailを入力して　Continue　ボタンをクリックする。
+  3. Create a password*
+     GitHubにログインするためのパスワードを入力します。`Continue`ボタンをクリックします。
 
-Create a password* GitHubにログインするためのパスワードを入力します。
+  4. Enter a username*
+     GitHubのアカウント名を入力します(あだ名でOKです)。`Continue` ボタンをクリックします。
 
-Continue ボタンをクリックします。
+  5. Email preferences GitHub
+     GitHubに関するメールを受信する場合はチェックを入れます。
 
-Enter a username* GitHubのアカウント名を入れます。　あだ名でOKです。
+  6. Verify your account
+     アカウント保護のため、質問に回答してあなたがロボットではないことを証明してください。`検証する`ボタンをクリックします。
 
-Continue ボタンをクリックします。
+  7. `送信ボタン`をクリックします。
 
-Email preferences GitHubに関するメールを受信する場合はチェックを入れます。
+  8. We sent a launch code to 登録メールアドレス Enter code*
+     登録メールアドレスに送られた確認コードを入力し`enter キー`を入力します。
 
-Welcome to GitHub!
-Let’s begin the adventure
-Verify your account
+  9. ログイン画面が表示されるのでログインします。
 
-表示されます。
+  10. GitHubの利用設定 How many team members will be working with you?
+　　　チームメンバーは何人ですか？`Just me`(私だけ)を選択します。
 
-アカウントの保護
-質問に回答して あなたがロボットではないことを証明してください。
+  12. Are you a student or teacher?
+      あなたは学生ですか、それとも教師ですか？
+      `N/A`(該当なし)を選択し、`Continue`　ボタンをクリックします。
 
-検証するボタンをクリックします。
+  13. What specific features are you interested in using?
+      使用したい機能を選択します。該当するものにチェックを入れ、`Continue`　ボタンをクリックします。
 
-指示に従い設定します。
+  14. Where teams collaborate and ship.
+      価格プランを設定します。`Free`を選択し、`Continue for free`　ボタンをクリックします。
 
-送信ボタンをクリックします。
-
-You're almost done!
-
-We sent a launch code to 登録メールアドレス
-
-Enter code*
-
-送られたメールアドレスに書いてあるコードを入力します。
-
-enter キーを入力します。
-
-ログイン画面が表示されるのでログインします。
-
-This will help us guide you to the tools that are best suited for your projects.
-
-How many team members will be working with you?
-
-これにより、お客様のプロジェクトに最適なツールをご案内することができます。
-
-チームメンバーは何人ですか？
-
-Just me
-
-私だけ
-
-Are you a student or teacher?
-
-あなたは学生ですか、それとも教師ですか？
-
-N/A
-
-該当なしを選択する
-
-Continue　ボタンをクリックします。
-
-What specific features are you interested in using?
-Select all that apply so we can point you to the right GitHub plan.
-
-具体的にどのような機能をご利用になりたいですか？
-該当するものをすべて選択すると、適切な GitHub プランをご案内します。
-
-GitHub Collaboration Icon
-Collaborative coding
-Codespaces, Pull requests, Notifications, Code review, Code review assignments, Code owners, Draft pull requests, Protected branches, and more.
-
-GitHub コラボレーションアイコン
-共同コーディング
-コードスペース、プルリクエスト、通知、コードレビュー、コードレビューの割り当て、コードオーナー、ドラフトプルリクエスト、保護ブランチなど。
-
-GitHub Automation and CI/CD Icon
-Automation and CI/CD
-Actions, Packages, APIs, GitHub Pages, GitHub Marketplace, Webhooks, Hosted runners, Self-hosted runners, Secrets management, and more.
-
-GitHub 自動化と CI/CD アイコン
-自動化とCI/CD
-アクション、パッケージ、API、GitHub Pages、GitHub Marketplace、Webhooks、ホストランナー、セルフホストランナー、シークレット管理など。
-
-GitHub Security Icon
-Security
-Private repos, 2FA, Required reviews, Required status checks, Code scanning, Secret scanning, Dependency graph, Dependabot alerts, and more.
-
-GitHub セキュリティアイコン
-セキュリティ
-プライベートリポジトリ、2FA、必須レビュー、必須ステータスチェック、コードスキャン、シークレットスキャン、依存関係グラフ、Dependabotアラートなど。
-
-GitHub Client Apps Icon
-Client Apps
-GitHub Mobile, GitHub CLI, and GitHub Desktop.
-
-GitHub クライアントアプリアイコン
-クライアントアプリ
-GitHub Mobile、GitHub CLI、GitHub Desktop。
-
-GitHub Project Management Icon
-Project Management
-Projects, Labels, Milestones, Issues, Unified Contribution Graph, Org activity graph, Org dependency insights, Repo insights, Wikis, and GitHub Insights.
-
-GitHub プロジェクト管理アイコン
-プロジェクト管理
-プロジェクト、ラベル、マイルストーン、課題、Unified Contribution Graph、Org Activity Graph、Org dependency insights、Repo insights、Wiki、GitHub Insights。
-
-GitHub Team Administration Icon
-Team Administration
-Organizations, Invitations, Team sync, Custom roles, Domain verification, Audit Log API, Repo creation restriction, and Notification restriction.
-
-GitHub チーム管理アイコン
-チーム管理
-組織、招待、チーム同期、カスタムロール、ドメイン検証、監査ログ API、レポ作成制限、通知制限。
-
-GitHub Community Icon
-Community
-GitHub Marketplace, GitHub Sponsors, GitHub Skills, and Electron.
-
-GitHub コミュニティアイコン
-コミュニティ
-GitHub Marketplace、GitHub Sponsors、GitHub Skills、Electron。
-
-利用する場合はオプションにチェックを入れて、Continue　ボタンをクリックします。
-
-Where teams collaborate and ship.
-Unlock advanced features with GitHub Team or continue with a free plan for the basics.
-
-価格プランを設定します。Free　で大丈夫です。
-
-Continue for free　ボタンをクリックします。
+以上でGitHubアカウントの作成が完了です。お疲れ様でした！
 
 ###  vercel
   * フロントエンドの環境を提供するホスティングのPaaS(Platform as a Service)です。
