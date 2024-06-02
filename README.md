@@ -142,135 +142,40 @@ VSCode(Visual Studio Code): コードエディタです。
 curl https://get.volta.sh | bash
 ```
 
-2. Node.jsのインストール
+2. Voltaのバージョン確認する
+
+```sh
+volta -v
+```
+
+3. Node.jsのインストールする
 
 実際にNode.jsのバージョン管理を行う方法について詳しく見ていきましょう。
 
-3. Node.jsのバージョンを最新のLTS（長期サポート版）をインストール
+4. Node.jsのバージョンを最新のLTS（長期サポート版）をインストール
 
 ```sh
 volta install node
 ```
 
-4. Node.jsが入ってるかを確認
+5. Node.jsが入ってるか確認する
 
 ```sh
 node -v
 ```
 
-
-### GitHub
-  * [参考リンク Githubサインアップ](https://github.com/signup)
-  * 事前にGitHubアカウントを作成してください。
-
-###  vercel
-  * フロントエンドの環境を提供するホスティングのPaaS(Platform as a Service)です。
-  * Githubなどのリポジトリと連携させるだけで、簡単にデプロイできます。
-  * [参考リンク-vercel](https://vercel.com/)
-
-### Supabase
-  * バックエンド側の環境を提供することができるデータベースであり、Bass(Backend as a Service)です。
-
-## 3. 開発環境を確認する
-
-Node.jsがインストールされているか確認する
+6. npmの確認
 
 ```sh
-% node -v
-```
-v20.13.1
-
-Node.jsのバージョンが古い場合はupdateする
-
-Latest LTS Version: v20.14.0
-
-```sh
-% brew upgrade
+npm -v
 ```
 
-問題を確認する
-
-```sh
-% brew doctor
-```
-
-Your system is ready to brew. と表示されたら完了です。
-
-homebrewでインストールしたパッケージを確認する
-
-```sh
-% brew list
-```
-nodenvでnode.jsをインストールしたことがわかります。
-
-インストール可能なnodeの一覧を表示する
-
-```sh
-% nodenv install --list
-```
-
-Node.jsをインストールする
-
-```sh
-% nodenv install 20.14.0
-```
-
-パッケージの更新
-
-```sh
-% nodenv rehash
-```
-
-インストールしたnode.jsのバージョンを確認する
-
-```sh
-% nodenv versions
-```
-
-利用するnode.jsのバージョンを指定する
-
-```sh
-% nodenv global 20.14.0
-```
-
-  20.13.1
-* 20.14.0 (set by /Users/ユーザー名/.nodenv/version)
-
-設定した方に * が設定した方になる。
-
-不要なnode.jsのバージョンを削除する
-
-```sh
-% nodenv uninstall 20.13.1
-```
-
-nodenv: remove /Users/ユーザー名/.nodenv/versions/20.13.1? [yN] y
-
-yキーエンター
-
-## 環境構築が終わったか確認する
-
-```sh
-% node -v
-```
-
-v20.14.0
-
-```sh
-% npm -v
-```
-
-10.7.0
-
-```sh
-% npx -v
-```
-
-10.7.0
-
-Node.jsがインストールされてない場合は、[nodejs.org](https://nodejs.org/en/) を確認してインストールします。
+これでmacOSにNode.jsをインストールする手順は完了です。
 
 ## GitHub　の　アカウントを作成する
+
+  * [参考リンク Githubサインアップ](https://github.com/signup)
+  * 事前にGitHubアカウントを作成してください。
 
 GitHubアカウントを所持している場合は、[GitHubのサインイン画面](https://github.com/login)よりログインしてください。
 
@@ -407,6 +312,14 @@ Unlock advanced features with GitHub Team or continue with a free plan for the b
 価格プランを設定します。Free　で大丈夫です。
 
 Continue for free　ボタンをクリックします。
+
+###  vercel
+  * フロントエンドの環境を提供するホスティングのPaaS(Platform as a Service)です。
+  * Githubなどのリポジトリと連携させるだけで、簡単にデプロイできます。
+  * [参考リンク-vercel](https://vercel.com/)
+
+### Supabase
+  * バックエンド側の環境を提供することができるデータベースであり、Bass(Backend as a Service)です。
 
 ## Vercel でデプロイする
 
