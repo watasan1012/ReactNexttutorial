@@ -220,7 +220,10 @@ GitHubアカウントを所持している場合は、[GitHubのサインイン�
 
 以上でGitHubアカウントの作成が完了です。お疲れ様でした！
 
-###  vercel
+## 3. Next.jsに触れてみる! 
+
+###  vercelで公開する
+
   * フロントエンドの環境を提供するホスティングのPaaS(Platform as a Service)です。
   * Githubなどのリポジトリと連携させるだけで、簡単にデプロイできます。
   * [参考リンク-vercel](https://vercel.com/)
