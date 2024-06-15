@@ -587,24 +587,9 @@ Enter same passphrase again:
 
 再度 Enter キーを入力します。
 
+鍵が作成されました。
 
-
-
-
-/Users/ユーザー名/.ssh/id_rsa already exists.
-Overwrite (y/n)?
-
-y キーの次に　enter キー
-
-Enter passphrase (empty for no passphrase):
-
-enter キー
-
-Enter same passphrase again: 
-
-enter キー
-
-#### 公開鍵をGitHubにアップする
+GitHubアカウントにSSH Keyの登録する
 
 [https://github.com/settings/ssh](https://github.com/settings/ssh/new)
 
@@ -616,9 +601,10 @@ Key　先ほど作成した公開鍵を貼り付ける
 
 なお、鍵の中身のクリップボードへのコピーは
 
-Mac
-```
-$ pbcopy < ~/.ssh/id_rsa.pub
+macOS
+
+```sh
+pbcopy < ~/.ssh/id_rsa.pub
 ```
 
 windows
@@ -628,7 +614,10 @@ $ clip < ~/.ssh/id_rsa.pub
 
 Add SSH key ボタンをクリックする
 
-#### 接続確認
+Confirm access画面が表示されたらGithubにログインするパスワードを入力するConfirm　ボタンをクリックします。
+
+
+#### GitHubに接続確認
 
 ```sh
 % ssh -T git@github.com
