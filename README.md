@@ -614,6 +614,20 @@ Add SSH key ボタンをクリックする
 
 Confirm access画面が表示されたらGithubにログインするパスワードを入力するConfirm　ボタンをクリックします。
 
+#### config ファイルを作成する
+
+~/.ssh/configを作成しその中にテキストを入れる
+
+```sh
+touch ~/.ssh/config
+```
+
+```text
+Host github github.com
+  HostName github.com
+  IdentityFile ~/.ssh/id_git_rsa #ここに自分の秘密鍵のファイル名
+  User git
+```
 
 #### GitHubに接続確認する
 
@@ -630,20 +644,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 続行しますか？ yes no 指紋となったら、
 
-#### config ファイルを作成する
 
-~/.ssh/configを作成しその中
-
-```sh
-touch ~/.ssh/config
-```
-
-```text
-Host github github.com
-  HostName github.com
-  IdentityFile ~/.ssh/id_git_rsa #ここに自分の秘密鍵のファイル名
-  User git
-```
 
 #### Githubにリモートリポジトリを作成する
 
