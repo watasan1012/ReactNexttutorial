@@ -400,15 +400,13 @@ Yes
 
 No
 
-## プロジェクトの作成が起動する
-
 ```
 Success! Created sample-next-project at /Users/ユーザーディレクトリ/作業ディレクトリ/sample-next-project
 ```
 
 が表示されたら完成です。
 
-## 動作確認
+## Next動作確認
 
 作業ディレクトリに移動します。
 
@@ -422,11 +420,7 @@ Success! Created sample-next-project at /Users/ユーザーディレクトリ/�
  % npm run dev
 ```
 
-ブラウザーからプロジェクトができたか確認する
-
-以下リンクを表示する
-
-[http://localhost:3000/](http://localhost:3000/)
+ブラウザーから[http://localhost:3000/](http://localhost:3000/) を開いで確認する。
 
 ### Hello world を表示してみよう！
 
