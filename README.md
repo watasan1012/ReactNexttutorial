@@ -690,41 +690,23 @@ Create repository ボタンをクリックします。
 
 Quick setup — if you’ve done this kind of thing before
 
-の SSH をクリックして git@github.com:ユーザーアカウント/Csample-next-project-.git　をコピーする
+の SSH をクリックして git@github.com:GitHubのアカウント名/sample-next-project.git　をコピーする
 
-
-
-#### Githubにリモートリポジトリを作成する
-
-[https://github.com/new](https://github.com/new)
-
-Repository name → sample-next-project
-
-公開設定は Public Private どちらでも大丈夫です。
-
-Create repository ボタンをクリックする
-
-sample-next-project プロジェクトのルートディレクトリより
+ターミナルから、プロジェクトのディレクトリから以下のコマンドを実行します。URL部分はコピーした内容を貼り付けます。
 
 ```sh
-% git status
+git remote add origin git@github.com:GitHubのアカウント名/sample-next-project.git
 ```
 
-```sh
-% git add .
+### 確認
+
+git remote -vコマンドで接続できたか確認することができる。
+
+```
+% git remote -v
 ```
 
-```sh
-% git commit -m "Hello world"
-```
-
-```sh
-%　git remote add origin git@github.com:Githubアカウント名/sample-next-project.git
-```
-
-```sh
-% git branch -M main
-```
+### Githubのリモートリポジトリにプッシュする
 
 ```sh
 % git push -u origin main
