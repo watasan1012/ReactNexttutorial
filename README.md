@@ -422,6 +422,7 @@ Success! Created sample-next-project at /Users/ユーザーディレクトリ/�
 
 ブラウザーから[http://localhost:3000/](http://localhost:3000/) を開いで確認する。
 
+
 ### Hello world を表示してみよう！
 
 sample-next-project ディレクトリを VS Code で表示する
@@ -517,7 +518,7 @@ Hello world　が表示されたら完了です。
 Gitのユーザー名、メールアドレスを確認する
 
 ```sh
-% git config --global --list
+git config --global --list
 ```
 
 user.name=
