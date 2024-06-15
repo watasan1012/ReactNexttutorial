@@ -334,6 +334,12 @@ Vercelのテンプレートを使用してプロジェクトを作成し公開�
 % npx create-next-app@latest
 ```
 
+```
+Need to install the following packages:
+create-next-app@14.2.4
+Ok to proceed? (y)
+```
+
 ```result
 ? What is your project named? › my-app
 ```
