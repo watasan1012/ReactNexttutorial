@@ -547,20 +547,20 @@ user.email=
 <emailaddress>　はemailを登録してください
 
 ```sh
-git config --global user.email github@example.com
+git config --global user.email ユーザー@example.com
 ```
 
-- GitHubのSSH接続を設定する
+GitHubのSSH接続を設定する
 
 ### 公開鍵・秘密鍵を作成する
 
-#### 鍵を入れるフォルダに移動しましょう
+鍵を入れるフォルダに移動しましょう
 
-```
-% cd ~/.ssh
+```sh
+cd ~/.ssh
 ```
 
-#### 次のコマンドで鍵を生成します
+次のコマンドで鍵を生成します
 
 ```sh
 % ssh-keygen -t rsa
