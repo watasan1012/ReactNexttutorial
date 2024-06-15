@@ -638,7 +638,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 touch ~/.ssh/config
 ```
 
-```
+```text
 Host github github.com
   HostName github.com
   IdentityFile ~/.ssh/id_git_rsa #ここに自分の秘密鍵のファイル名
