@@ -642,7 +642,13 @@ ED25519 key fingerprint is SHA256:+DiY3wvvV6TuZZZXXXXXXXXXXX.
 This key is not known by any other names.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 
-続行しますか？ yes no 指紋となったら、
+続行しますか？ yes no 指紋となったら、yesを入力してエンターキーをクリックします。
+
+
+Hi アカウント名! You've successfully authenticated, but GitHub does not provide shell access.
+
+
+
 
 
 
