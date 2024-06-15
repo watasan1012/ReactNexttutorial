@@ -585,6 +585,8 @@ Enter passphrase (empty for no passphrase):
 
 Enter same passphrase again:
 
+再度 Enter キーを入力します。
+
 
 
 
