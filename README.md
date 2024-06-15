@@ -712,44 +712,10 @@ git remote -vコマンドで接続できたか確認することができる。
 % git push -u origin main
 ```
 
-fatal: The current branch main has no upstream branch.
-To push the current branch and set the remote as upstream, use
+=======
 
-    git push --set-upstream origin main
 
-To have this happen automatically for branches without a tracking
-upstream, see 'push.autoSetupRemote' in 'git help config'.
-
-と表示されたら指示通り、実行してみる
-
-```sh
-% git push --set-upstream origin main
-```
-
-fatal　や　error　が表示されたら、HTTPS 接続か、SSH接続を疑う
-
-現在登録されているリモートのリポジトリを確認する
-
-```
-% git remote -v
-```
-
-origin	git@github.com:Githubアカウント名/sample-next-project.git (fetch)
-origin	git@github.com:Githubアカウント名/sample-next-project.git (push)
-
-Github登録時の　SSHキーと同じであることを確認する
-
-git@github.com:Githubアカウント名/sample-next-project.git
-
--> remoteがaddされていることを確認
-
-#### 違う場合は　git remote set-url origin コマンドで修正する
-
-```sh
-git remote set-url origin https://github.com/Githubアカウント名/sample-next-project.git
-```
-
-### Vercel にログイン
+## Vercel にログイン
 
 ログインしていた場合は、 左上のアカウント名 projects をクリックします。
 
