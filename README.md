@@ -630,18 +630,11 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 続行しますか？ yes no 指紋となったら、
 
-再度テストを実行する
-
-ssh -T git@github.com
-
-no such identity: /Users/hirotaka/.ssh/github: No such file or directory
-git@github.com: Permission denied (publickey).
-
 #### config ファイルを作成する
 
 ~/.ssh/configを作成しその中
 
-```
+```sh
 touch ~/.ssh/config
 ```
 
