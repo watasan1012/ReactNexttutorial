@@ -517,7 +517,7 @@ Hello world　が表示されたら完了です。
 
 Gitのバージョンを確認します
 
-```
+```sh
 git -v
 ```
 git version 2.39.3 (Apple Git-146)
