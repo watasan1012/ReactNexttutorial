@@ -554,21 +554,35 @@ GitHubのSSH接続を設定する
 
 ### 公開鍵・秘密鍵を作成する
 
-鍵を入れるフォルダに移動しましょう
-
-```sh
-cd ~/.ssh
-```
-
 次のコマンドで鍵を生成します
 
 ```sh
-% ssh-keygen -t rsa
+ssh-keygen -t rsa
 ```
+
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/ユーザーアカウント/.ssh/id_rsa): 
+
+鍵の保存先を指定します。特に変更しない場合はenterキーをクリックします。
+
+
+Generating public/private rsa key pair.
 
 Enter file in which to save the key (/Users/ユーザー名/.ssh/id_rsa): 
 
 Enter キーをクリックする
+
+Enterを押下するとパスフレーズ無しにすることが可能になります。
+
+Enter passphrase (empty for no passphrase):
+
+再度 Enter キーを入力します。
+
+Enter same passphrase again:
+
+
+
+
 
 /Users/ユーザー名/.ssh/id_rsa already exists.
 Overwrite (y/n)?
