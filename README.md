@@ -649,6 +649,49 @@ Hi アカウント名! You've successfully authenticated, but GitHub does not pr
 
 ### ローカルのプロジェクトをGithubへアップロードする
 
+### ファイルのステージング
+
+git add Gitで変更されたすべてのファイルをステージング領域に追加するためのコマンドです。
+
+```sh
+git add .
+```
+
+### ローカルリポジトリにファイルを登録します。
+
+```sh
+git commit -m "start" 
+```
+
+## ブランチ名を確認する。
+
+```sh
+% git branch
+```
+* main
+
+mainであることを確認する
+
+## ローカルリポジトとリモートリポジトリを関連付ける
+
+1. まずは、リモートリポジトリを作成する
+
+Githubをログインしたあと
+
+(https://github.com/new)[https://github.com/new]に遷移してCreate a new repository　を表示する
+
+Repository name　にプロジェクトの名前を入力する　 sample-next-project　
+
+Private にチェックを入れます。
+
+Create repository ボタンをクリックします。
+
+## ローカルリポジトリとリモートリポジトリを関連付けする
+
+Quick setup — if you’ve done this kind of thing before
+
+の SSH をクリックして git@github.com:ユーザーアカウント/Csample-next-project-.git　をコピーする
+
 
 
 #### Githubにリモートリポジトリを作成する
