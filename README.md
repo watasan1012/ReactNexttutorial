@@ -569,8 +569,6 @@ Enter passphrase (empty for no passphrase):
 
 登録するパスフレーズを入力します。からで大丈夫ですので何も入力せずenterキーを入力します。
 
-
-
 Generating public/private rsa key pair.
 
 Enter file in which to save the key (/Users/ユーザー名/.ssh/id_rsa): 
@@ -617,7 +615,7 @@ Add SSH key ボタンをクリックする
 Confirm access画面が表示されたらGithubにログインするパスワードを入力するConfirm　ボタンをクリックします。
 
 
-#### GitHubに接続確認
+#### GitHubに接続確認する
 
 ```sh
 % ssh -T git@github.com
