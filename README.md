@@ -517,6 +517,10 @@ Hello world　が表示されたら完了です。
 
 Gitのバージョンを確認します
 
+```
+git -v
+```
+git version 2.39.3 (Apple Git-146)
 
 
 Gitのユーザー名、メールアドレスを確認する
