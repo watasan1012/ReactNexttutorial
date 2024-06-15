@@ -565,6 +565,11 @@ Enter file in which to save the key (/Users/ユーザーアカウント/.ssh/id_
 
 鍵の保存先を指定します。特に変更しない場合はenterキーをクリックします。
 
+Enter passphrase (empty for no passphrase): 
+
+登録するパスフレーズを入力します。からで大丈夫ですので何も入力せずenterキーを入力します。
+
+
 
 Generating public/private rsa key pair.
 
