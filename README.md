@@ -618,23 +618,38 @@ Confirm access画面が表示されたらGithubにログインするパスワー
 #### GitHubに接続確認する
 
 ```sh
-% ssh -T git@github.com
+ssh -T git@github.com
 ```
 
-Hi Githubアカウント名! You've successfully authenticated, but GitHub does not provide shell access.
+sshコマンドで接続するのが初めてのホストの場合以、以下のように確認される。
+
+The authenticity of host 'github.com (20.27.177.113)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuZZZXXXXXXXXXXX.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+
+続行しますか？ yes no 指紋となったら、
+
+再度テストを実行する
+
+ssh -T git@github.com
+
+no such identity: /Users/hirotaka/.ssh/github: No such file or directory
+git@github.com: Permission denied (publickey).
 
 #### config ファイルを作成する
 
-~/.ssh/configを作成しその中に
+~/.ssh/configを作成しその中
 
 ```
-Host github.com.sub
+touch ~/.ssh/config
+```
+
+```
+Host github github.com
   HostName github.com
+  IdentityFile ~/.ssh/id_git_rsa #ここに自分の鍵のファイル名
   User git
-  Port 22
-  IdentityFile ~/.ssh/id_rsa
-  TCPKeepAlive yes
-  IdentitiesOnly yes
 ```
 
 #### Githubにリモートリポジトリを作成する
