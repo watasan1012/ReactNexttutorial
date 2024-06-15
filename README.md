@@ -546,8 +546,8 @@ user.email=
 
 <emailaddress>　はemailを登録してください
 
-```
-% git config --global user.email <emailaddress>
+```sh
+git config --global user.email <emailaddress>
 ```
 
 - GitHubのSSH接続を設定する
