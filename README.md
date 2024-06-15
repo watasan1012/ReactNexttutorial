@@ -513,7 +513,9 @@ Hello world　が表示されたら完了です。
 
 #### sample-next-project　を Githubと紐付ける
 
-- 現在のローカルの状態を確認します。Gitの状態を確認しましょう
+- 現在のGitの状態を調べる
+
+Gitのバージョンを確認します
 
 
 
