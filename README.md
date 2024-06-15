@@ -647,8 +647,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 Hi アカウント名! You've successfully authenticated, but GitHub does not provide shell access.
 
-
-
+### ローカルのプロジェクトをGithubへアップロードする
 
 
 
