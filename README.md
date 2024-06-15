@@ -380,7 +380,7 @@ Yes
 ? Would you like to use `src/` directory? › No / Yes
 ```
 
-? このプロジェクトでsrc/`ディレクトリを使用しますか？いいえ / はい
+? このプロジェクトで`src/`ディレクトリを使用しますか？いいえ / はい
 
 Yes
 
