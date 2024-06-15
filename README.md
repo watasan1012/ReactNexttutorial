@@ -538,8 +538,8 @@ user.email=
 
 <username> はここで変更してください
 
-```
-% git config --global user.name <username>
+```sh
+ % git config --global user.name "ユーザー名"
 ```
 
 メールアドレスを登録する
